@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/SBPrototypeEnvironment_SRP/Scenes/SampleBuilding.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
