@@ -14,7 +14,8 @@ Requirements for the software and other tools to build, test and push
  
 ### Installing
 
-**Zip file**: First download the code zip file of this repository. Open Unity Hub and select 'Add' from the projects window, then select 'Add project from disk'. Choose the unzipped file you just downloaded then click 'Open'. This should laod the unity files and start the project.
+**Zip file**: First download the code zip file of this repository. Open Unity Hub and select 'Add' from the projects window, then select 'Add project from disk'. Choose the unzipped file you just downloaded then click 'Open'. This should load the unity files and start the project. *edit, for a build that has no library files, it will load a black smaple scene. To load the current scene, in the project files tab in unity, go to Assets/SBPrototypeEnvironment_SRP/Scenes/SampleBuilding and drag and drop this scene into the Hierarchy tabe (delete the old one by clicking on the three dots to the right of the old SampleScene and select Remove Scene).
+
 
 ## Authors
 
