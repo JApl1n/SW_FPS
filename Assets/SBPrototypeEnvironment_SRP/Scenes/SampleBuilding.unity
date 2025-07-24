@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_VentAirOutVar2
       objectReference: {fileID: 0}
+    - target: {fileID: 9199276312493219350, guid: 47e5b5eaa60f9124a87f9acb90e37bfe, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -250,6 +254,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -319,6 +327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Vent2Way (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -340,6 +352,10 @@ PrefabInstance:
     - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
       propertyPath: m_Name
       value: Arch_AddPillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -420,6 +436,10 @@ PrefabInstance:
       value: Arch_BasePillarShortVar1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -492,6 +512,10 @@ PrefabInstance:
     - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2Var1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4183616937053045368, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_RootOrder
@@ -612,6 +636,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -690,6 +718,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -758,6 +790,10 @@ PrefabInstance:
     - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_BeamVar1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -830,6 +866,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -854,6 +894,10 @@ PrefabInstance:
     - target: {fileID: 15490073296788610, guid: 62310011a2add464fa008ba018570c7a, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2WayCrnr1Var2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 15490073296788610, guid: 62310011a2add464fa008ba018570c7a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6103287975455597305, guid: 62310011a2add464fa008ba018570c7a, type: 3}
       propertyPath: m_RootOrder
@@ -920,6 +964,10 @@ PrefabInstance:
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapR
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1044,6 +1092,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1116,6 +1168,10 @@ PrefabInstance:
     - target: {fileID: 4665973203176917889, guid: 15c37e8a9fef8c142a842474e4f9ab56, type: 3}
       propertyPath: m_Name
       value: Arch_BaseWindowWCrnrLVar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665973203176917889, guid: 15c37e8a9fef8c142a842474e4f9ab56, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4665973203176917889, guid: 15c37e8a9fef8c142a842474e4f9ab56, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1261,6 +1317,10 @@ PrefabInstance:
     - target: {fileID: 1362561970346674475, guid: 86c250a30b914184b8e9b3d116af5c47, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlSideVar5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362561970346674475, guid: 86c250a30b914184b8e9b3d116af5c47, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1362561970346674475, guid: 86c250a30b914184b8e9b3d116af5c47, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1451,6 +1511,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1520,6 +1584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1586,6 +1654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1607,6 +1679,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -1674,9 +1750,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 173529902652647757, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422658561938425661, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_Name
       value: Env_RockSml7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333157, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_RootOrder
@@ -1788,6 +1876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_BeamVar1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1809,6 +1901,10 @@ PrefabInstance:
     - target: {fileID: 1800863324627509650, guid: 08bd86eecd979864abd44cbb6c047612, type: 3}
       propertyPath: m_Name
       value: Kit_Catwalk_2WaySlopeVar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800863324627509650, guid: 08bd86eecd979864abd44cbb6c047612, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7714412538754650864, guid: 08bd86eecd979864abd44cbb6c047612, type: 3}
       propertyPath: m_RootOrder
@@ -1876,6 +1972,8 @@ GameObject:
   - component: {fileID: 189926060}
   - component: {fileID: 189926059}
   - component: {fileID: 189926058}
+  - component: {fileID: 189926062}
+  - component: {fileID: 189926061}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1896,9 +1994,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 979098715}
   - {fileID: 702184778}
   - {fileID: 1102743150}
+  - {fileID: 979098715}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &189926058
@@ -1920,7 +2018,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -1967,7 +2065,7 @@ MonoBehaviour:
   sprintSpeed: 15
   groundDrag: 12
   airDrag: 1
-  jumpForce: 12
+  jumpForce: 15
   jumpCooldown: 0.8
   airMultiplier: 0.1
   readyToJump: 1
@@ -1984,6 +2082,37 @@ MonoBehaviour:
   maxSlopeAngle: 40
   orientation: {fileID: 702184778}
   state: 0
+  gunSelector: {fileID: 189926062}
+--- !u!114 &189926061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189926056}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc25e585041b4bdc8db697d910d81ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunSelector: {fileID: 189926062}
+--- !u!114 &189926062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189926056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dab2025acb9547998aaa5ec0794bbec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gun: 0
+  gunParent: {fileID: 406217603}
+  guns:
+  - {fileID: 11400000, guid: ab9bc1447d83449059bc823eab15a3be, type: 2}
+  activeGun: {fileID: 0}
 --- !u!1001 &190202694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2061,6 +2190,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2250,6 +2383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Vent2Way (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2315,6 +2452,10 @@ PrefabInstance:
     - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_2Way (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2382,6 +2523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Catwalk_2WayCrnr (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3984351423912867020, guid: a5a0c0af27e21a44ca2f9e47b91bb203, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2403,6 +2548,10 @@ PrefabInstance:
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar5
+      objectReference: {fileID: 0}
+    - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2527,6 +2676,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2596,6 +2749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Vent2Way (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2617,6 +2774,10 @@ PrefabInstance:
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapR (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2737,6 +2898,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2765,6 +2930,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2845,6 +3014,10 @@ PrefabInstance:
       value: Arch_BaseWindowWSideVar1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4347372726504207120, guid: a743a1db09e93774e8ed034e24328b4f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347372726504207120, guid: a743a1db09e93774e8ed034e24328b4f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2917,6 +3090,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3014,12 +3191,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295481344}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 516849395}
+  - {fileID: 406217603}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &297543300
@@ -3033,6 +3211,10 @@ PrefabInstance:
     - target: {fileID: 1786006745154692986, guid: 44d4736f4dccd964c9c10ca34b74a035, type: 3}
       propertyPath: m_Name
       value: Arch_DetailChimney
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786006745154692986, guid: 44d4736f4dccd964c9c10ca34b74a035, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6444211199909008430, guid: 44d4736f4dccd964c9c10ca34b74a035, type: 3}
       propertyPath: m_RootOrder
@@ -3148,6 +3330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3169,6 +3355,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -3239,6 +3429,10 @@ PrefabInstance:
     - target: {fileID: 4444219562851193280, guid: 78ce28e174f8932489c766707b5e3e9e, type: 3}
       propertyPath: m_Name
       value: Arch_BaseWindowCrnrR1Var2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444219562851193280, guid: 78ce28e174f8932489c766707b5e3e9e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4444219562851193280, guid: 78ce28e174f8932489c766707b5e3e9e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3358,6 +3552,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4300304818109736259, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093686694230744031, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861512192298375930, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3379,6 +3585,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3499,6 +3709,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -3531,6 +3745,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3645,6 +3863,10 @@ PrefabInstance:
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_Name
       value: Arch_AddSlabBaseVar1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3808,6 +4030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -3874,9 +4100,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 173529902652647757, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422658561938425661, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_Name
       value: Env_RockSml7 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333157, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_RootOrder
@@ -3941,12 +4179,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
     - target: {fileID: 974797203990745665, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 974797203990745665, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1161054788630560484, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
       propertyPath: m_Name
       value: Env_Rock1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161054788630560484, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1161054788630560484, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4009,6 +4255,10 @@ PrefabInstance:
       value: -1.206
       objectReference: {fileID: 0}
     - target: {fileID: 4697778095012796108, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697778095012796108, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4022,6 +4272,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1161054788630560485, guid: 1cfa37d55a59c014194faff37d13f3de, type: 3}
   m_PrefabInstance: {fileID: 402607903}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &406217602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406217603}
+  m_Layer: 0
+  m_Name: GunPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406217603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406217602}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.3, y: -0.3, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 295481346}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &470950285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4033,6 +4314,10 @@ PrefabInstance:
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapR (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4152,6 +4437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Catwalk_2WayCrnr
       objectReference: {fileID: 0}
+    - target: {fileID: 3984351423912867020, guid: a5a0c0af27e21a44ca2f9e47b91bb203, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4173,6 +4462,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -4288,6 +4581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4345,6 +4642,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4467,9 +4768,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.35
   far clip plane: 1000
-  field of view: 60
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -4543,6 +4844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_BeamVar1
       objectReference: {fileID: 0}
+    - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4609,6 +4914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4634,6 +4943,10 @@ PrefabInstance:
     - target: {fileID: 6542491343355053241, guid: 55d77e023439c024f945840d8ab7c1fc, type: 3}
       propertyPath: m_Name
       value: Arch_BaseRoofFlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542491343355053241, guid: 55d77e023439c024f945840d8ab7c1fc, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6542491343355053241, guid: 55d77e023439c024f945840d8ab7c1fc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4776,6 +5089,10 @@ PrefabInstance:
       value: Arch_BaseLowSideVar6 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4894,6 +5211,10 @@ PrefabInstance:
       value: Arch_BaseCeiling (8)
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -4922,6 +5243,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5058,6 +5383,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5208,7 +5537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 590077561}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Catwalk_Kit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5309,6 +5638,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -5337,6 +5670,10 @@ PrefabInstance:
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5461,6 +5798,10 @@ PrefabInstance:
       value: Arch_BaseCeiling (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -5482,6 +5823,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 1551107556146580711, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2559735524984027025, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -5529,6 +5874,14 @@ PrefabInstance:
     - target: {fileID: 2559735524984027030, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
       propertyPath: m_Name
       value: Env_RockSml9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2559735524984027030, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160192249102411229, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5596,6 +5949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Vent3WayAltVar2
       objectReference: {fileID: 0}
+    - target: {fileID: 3873787301166988203, guid: 1c2d0cf8f58d26746b84b3c0ffe3520f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5661,6 +6018,10 @@ PrefabInstance:
     - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2Way (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5733,6 +6094,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar1 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -5757,6 +6122,10 @@ PrefabInstance:
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCap (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5876,6 +6245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Catwalk_2WayCrnr (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3984351423912867020, guid: a5a0c0af27e21a44ca2f9e47b91bb203, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5945,6 +6318,10 @@ PrefabInstance:
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_Name
       value: Arch_BaseCeiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6017,12 +6394,24 @@ PrefabInstance:
       value: Env_Rock6
       objectReference: {fileID: 0}
     - target: {fileID: 913081984113221494, guid: 07e6100e649f5f74a9ae808a24c25324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 913081984113221494, guid: 07e6100e649f5f74a9ae808a24c25324, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6332593226239012632, guid: 07e6100e649f5f74a9ae808a24c25324, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332593226239012632, guid: 07e6100e649f5f74a9ae808a24c25324, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8016263871979436233, guid: 07e6100e649f5f74a9ae808a24c25324, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8016263871979436233, guid: 07e6100e649f5f74a9ae808a24c25324, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6053,6 +6442,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6123,6 +6516,10 @@ PrefabInstance:
     - target: {fileID: 5308859370393545175, guid: ca45500f53865a9438ce45571ad9709f, type: 3}
       propertyPath: m_Name
       value: Arch_WindowVar4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308859370393545175, guid: ca45500f53865a9438ce45571ad9709f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5567472274550108532, guid: ca45500f53865a9438ce45571ad9709f, type: 3}
       propertyPath: m_RootOrder
@@ -6243,6 +6640,10 @@ PrefabInstance:
       value: Arch_DoorVar2
       objectReference: {fileID: 0}
     - target: {fileID: 6243303786070625605, guid: d282ca7a73c0bbc429811baefea0cfaf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243303786070625605, guid: d282ca7a73c0bbc429811baefea0cfaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -6302,6 +6703,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6376,6 +6781,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -6518,6 +6927,10 @@ PrefabInstance:
       value: Arch_BaseLowSideVar6 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -6630,6 +7043,10 @@ PrefabInstance:
     - target: {fileID: 8607218048382882531, guid: ca58c496c50170645ac5a35a3d84fdaa, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2WayCrnr2Var2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8607218048382882531, guid: ca58c496c50170645ac5a35a3d84fdaa, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6834,6 +7251,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar2 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -6858,6 +7279,10 @@ PrefabInstance:
     - target: {fileID: 3780738677885213360, guid: 7df2482e515e6184ca6690889f0dffdc, type: 3}
       propertyPath: m_Name
       value: Arch_DoorVar3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3780738677885213360, guid: 7df2482e515e6184ca6690889f0dffdc, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3780738677885213360, guid: 7df2482e515e6184ca6690889f0dffdc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6977,6 +7402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6998,6 +7427,10 @@ PrefabInstance:
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapR (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7072,6 +7505,10 @@ PrefabInstance:
     - target: {fileID: 380399594886877204, guid: 2e506a02aef403e4688ed988c1a9e7e6, type: 3}
       propertyPath: m_Name
       value: Arch_BaseIndntDSideR
+      objectReference: {fileID: 0}
+    - target: {fileID: 380399594886877204, guid: 2e506a02aef403e4688ed988c1a9e7e6, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 380399594886877204, guid: 2e506a02aef403e4688ed988c1a9e7e6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7196,6 +7633,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7264,6 +7705,10 @@ PrefabInstance:
     - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_2Way (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7336,6 +7781,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7360,6 +7809,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -7475,6 +7928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Vent2Way (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7540,6 +7997,10 @@ PrefabInstance:
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_Name
       value: Arch_AddSlabBaseVar1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7620,6 +8081,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar2 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7690,12 +8155,24 @@ PrefabInstance:
       value: Env_Rock7
       objectReference: {fileID: 0}
     - target: {fileID: 589968902597315867, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 589968902597315867, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2658082460095193579, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658082460095193579, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860434915583065824, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6860434915583065824, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7768,6 +8245,10 @@ PrefabInstance:
       value: Arch_DoorVar2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6243303786070625605, guid: d282ca7a73c0bbc429811baefea0cfaf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243303786070625605, guid: d282ca7a73c0bbc429811baefea0cfaf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -7796,6 +8277,10 @@ PrefabInstance:
     - target: {fileID: 1362561970346674475, guid: 86c250a30b914184b8e9b3d116af5c47, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlSideVar5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362561970346674475, guid: 86c250a30b914184b8e9b3d116af5c47, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1362561970346674475, guid: 86c250a30b914184b8e9b3d116af5c47, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7868,7 +8353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866540905}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8117,6 +8602,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8141,6 +8630,10 @@ PrefabInstance:
     - target: {fileID: 1517993430613685942, guid: f00d320c6bb35784cac14930e84f3541, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_2WayCrnr
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517993430613685942, guid: f00d320c6bb35784cac14930e84f3541, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3010899640928927221, guid: f00d320c6bb35784cac14930e84f3541, type: 3}
       propertyPath: m_RootOrder
@@ -8207,6 +8700,10 @@ PrefabInstance:
     - target: {fileID: 5790181055910145135, guid: 2812e110ac6245a458a99bfc1d4778ed, type: 3}
       propertyPath: m_Name
       value: Kit_Light_Bulb
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790181055910145135, guid: 2812e110ac6245a458a99bfc1d4778ed, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8864934020147906407, guid: 2812e110ac6245a458a99bfc1d4778ed, type: 3}
       propertyPath: m_RootOrder
@@ -8287,7 +8784,7 @@ Transform:
   m_GameObject: {fileID: 894577783}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0.4}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8388,6 +8885,10 @@ PrefabInstance:
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlSideVar2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8506,6 +9007,10 @@ PrefabInstance:
     - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
       propertyPath: m_Name
       value: Arch_AddPillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8634,6 +9139,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (8)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8702,6 +9211,10 @@ PrefabInstance:
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_Name
       value: Arch_AddSlabBaseVar1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8782,6 +9295,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8854,6 +9371,10 @@ PrefabInstance:
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_Name
       value: Arch_BaseCeiling (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8930,6 +9451,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar1 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8954,6 +9479,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9073,6 +9602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9108,7 +9641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979098714}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9129,6 +9662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xSens: 200
   ySens: 200
+  visuals: {fileID: 1102743150}
   orientation: {fileID: 702184778}
 --- !u!1001 &984903391
 PrefabInstance:
@@ -9185,6 +9719,10 @@ PrefabInstance:
     - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_2Way (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9251,6 +9789,10 @@ PrefabInstance:
     - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_BeamVar1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9340,6 +9882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1999107701942304814, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1999107701942304815, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -9383,6 +9929,14 @@ PrefabInstance:
     - target: {fileID: 1999107701942304815, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2442377654619092542, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896917609995024279, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9449,6 +10003,10 @@ PrefabInstance:
     - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_2Way (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9522,6 +10080,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -9551,7 +10113,7 @@ GameObject:
   - component: {fileID: 1017917712}
   - component: {fileID: 1017917711}
   - component: {fileID: 1017917710}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9706,6 +10268,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -9796,6 +10362,10 @@ PrefabInstance:
     - target: {fileID: 235708681959659508, guid: 3f7d2b50487b1e94ebf71ddbac299121, type: 3}
       propertyPath: m_Name
       value: Kit_Catwalk_2WaySlopeVar2
+      objectReference: {fileID: 0}
+    - target: {fileID: 235708681959659508, guid: 3f7d2b50487b1e94ebf71ddbac299121, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6983770525543772378, guid: 3f7d2b50487b1e94ebf71ddbac299121, type: 3}
       propertyPath: m_RootOrder
@@ -9978,6 +10548,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar1 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10048,6 +10622,10 @@ PrefabInstance:
       value: Arch_AddFenceCapVar2
       objectReference: {fileID: 0}
     - target: {fileID: 6609234892528282715, guid: cb7a85b1ed0226d4ab76144352dbc51d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6609234892528282715, guid: cb7a85b1ed0226d4ab76144352dbc51d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10080,6 +10658,10 @@ PrefabInstance:
     - target: {fileID: 1577997593749970356, guid: 14f8d4e306a6b8b44a1d9d25c4e2d716, type: 3}
       propertyPath: m_Name
       value: Arch_BaseIndntDSideL
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577997593749970356, guid: 14f8d4e306a6b8b44a1d9d25c4e2d716, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1577997593749970356, guid: 14f8d4e306a6b8b44a1d9d25c4e2d716, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10200,6 +10782,10 @@ PrefabInstance:
       value: Arch_BaseCeiling (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10269,6 +10855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_BeamVar1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10290,6 +10880,10 @@ PrefabInstance:
     - target: {fileID: 1800863324627509650, guid: 08bd86eecd979864abd44cbb6c047612, type: 3}
       propertyPath: m_Name
       value: Kit_Catwalk_2WaySlopeVar1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800863324627509650, guid: 08bd86eecd979864abd44cbb6c047612, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7714412538754650864, guid: 08bd86eecd979864abd44cbb6c047612, type: 3}
       propertyPath: m_RootOrder
@@ -10472,6 +11066,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (9)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10546,6 +11144,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10585,9 +11187,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102743149}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 1, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 894577784}
@@ -10704,6 +11306,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (5)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10796,6 +11402,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar2
       objectReference: {fileID: 0}
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -10872,6 +11482,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11069,6 +11683,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -11097,6 +11715,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11167,6 +11789,10 @@ PrefabInstance:
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11245,6 +11871,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11360,6 +11990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11429,6 +12063,10 @@ PrefabInstance:
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11505,6 +12143,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -11529,6 +12171,10 @@ PrefabInstance:
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCap (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11648,6 +12294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11673,6 +12323,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11743,6 +12397,10 @@ PrefabInstance:
     - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2Var1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4183616937053045368, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_RootOrder
@@ -11885,6 +12543,10 @@ PrefabInstance:
       value: Arch_AddRoofSideCap (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -11954,9 +12616,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 173529902652647757, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422658561938425661, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_Name
       value: Env_RockSml7 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333157, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_RootOrder
@@ -12069,12 +12743,24 @@ PrefabInstance:
       value: Env_Rock7 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 589968902597315867, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 589968902597315867, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2658082460095193579, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658082460095193579, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6860434915583065824, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6860434915583065824, guid: 11c70706a9e517b49a90dd832943bd1f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12151,6 +12837,10 @@ PrefabInstance:
       value: Arch_BaseDoorCrnrLVar2
       objectReference: {fileID: 0}
     - target: {fileID: 6908715552650434795, guid: 576a192c761f8d747b7e313d661b716d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908715552650434795, guid: 576a192c761f8d747b7e313d661b716d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12225,6 +12915,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12249,6 +12943,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12369,6 +13067,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12447,6 +13149,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12521,6 +13227,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12589,6 +13299,10 @@ PrefabInstance:
     - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_2Way (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12659,6 +13373,10 @@ PrefabInstance:
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_Name
       value: Arch_AddFenceSideVar2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12741,6 +13459,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12865,6 +13587,10 @@ PrefabInstance:
       value: Arch_BaseCeiling (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -12933,6 +13659,18 @@ PrefabInstance:
     - target: {fileID: 4300304818109736259, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
       propertyPath: m_Name
       value: Env_RockSml8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300304818109736259, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093686694230744031, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861512192298375930, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13005,6 +13743,10 @@ PrefabInstance:
       value: Arch_BaseWindowCrnrL1Var2
       objectReference: {fileID: 0}
     - target: {fileID: 4100086382574689337, guid: d88f9c15d0870654c925bbaf5609deec, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100086382574689337, guid: d88f9c15d0870654c925bbaf5609deec, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13074,6 +13816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13092,9 +13838,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 173529902652647757, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422658561938425661, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_Name
       value: Env_RockSml7 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226810218942333154, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4226810218942333157, guid: fcc81af5c0b1937448261d6d4d7b779f, type: 3}
       propertyPath: m_RootOrder
@@ -13211,6 +13969,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13280,6 +14042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13301,6 +14067,10 @@ PrefabInstance:
     - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2Var1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4183616937053045368, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_RootOrder
@@ -13425,6 +14195,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13493,6 +14267,10 @@ PrefabInstance:
     - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2Way (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13568,6 +14346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_BeamDbl1
       objectReference: {fileID: 0}
+    - target: {fileID: 7943729750184569261, guid: ce0859e7837035b489a23c52cfc946be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13635,6 +14417,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13663,6 +14449,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13737,6 +14527,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13861,6 +14655,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -13885,6 +14683,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14009,6 +14811,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar2 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14033,6 +14839,10 @@ PrefabInstance:
     - target: {fileID: 2878085043220962180, guid: b620e7fa2104c6d47a8d4b2434f8d7ca, type: 3}
       propertyPath: m_Name
       value: Arch_AddFenceCrnrVar2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878085043220962180, guid: b620e7fa2104c6d47a8d4b2434f8d7ca, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2878085043220962180, guid: b620e7fa2104c6d47a8d4b2434f8d7ca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14153,6 +14963,10 @@ PrefabInstance:
       value: Arch_AddRoofSide (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6102334975932059121, guid: c8413fc9d08540d4088b9046b860346a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6102334975932059121, guid: c8413fc9d08540d4088b9046b860346a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14179,7 +14993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401153388}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14210,7 +15024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1406538154}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Utility Kit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14295,6 +15109,10 @@ PrefabInstance:
     - target: {fileID: 1098577953851341131, guid: 799019e91178c7e44b575719e9a7382b, type: 3}
       propertyPath: m_Name
       value: Arch_BaseDblSidedDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098577953851341131, guid: 799019e91178c7e44b575719e9a7382b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1098577953851341131, guid: 799019e91178c7e44b575719e9a7382b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14419,6 +15237,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14447,6 +15269,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14562,6 +15388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14633,6 +15463,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14657,6 +15491,10 @@ PrefabInstance:
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapR (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14799,6 +15637,10 @@ PrefabInstance:
       value: Arch_AddRoofSideCap (4)
       objectReference: {fileID: 0}
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14921,6 +15763,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -14943,7 +15789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510889090}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15047,6 +15893,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15121,6 +15971,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15189,6 +16043,10 @@ PrefabInstance:
     - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2Way (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15323,6 +16181,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15351,6 +16213,10 @@ PrefabInstance:
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15493,6 +16359,10 @@ PrefabInstance:
       value: Arch_BasePillarShortVar1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15615,6 +16485,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15687,6 +16561,10 @@ PrefabInstance:
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlSideVar2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6340485177881604857, guid: 59b5c8e187cf3934481c20734cd31307, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15785,6 +16663,10 @@ PrefabInstance:
       value: Arch_BaseRoofFlat (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6542491343355053241, guid: 55d77e023439c024f945840d8ab7c1fc, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542491343355053241, guid: 55d77e023439c024f945840d8ab7c1fc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15859,6 +16741,10 @@ PrefabInstance:
       value: Arch_BaseLowSideVar6 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -15927,6 +16813,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16051,6 +16941,10 @@ PrefabInstance:
       value: Arch_BaseDoorSideVar2
       objectReference: {fileID: 0}
     - target: {fileID: 1269033152916193517, guid: 5d591d436629a6e4bb1a0b8da1306b76, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269033152916193517, guid: 5d591d436629a6e4bb1a0b8da1306b76, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16075,6 +16969,10 @@ PrefabInstance:
     - target: {fileID: 15490073296788610, guid: 62310011a2add464fa008ba018570c7a, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2WayCrnr1Var2
+      objectReference: {fileID: 0}
+    - target: {fileID: 15490073296788610, guid: 62310011a2add464fa008ba018570c7a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6103287975455597305, guid: 62310011a2add464fa008ba018570c7a, type: 3}
       propertyPath: m_RootOrder
@@ -16186,6 +17084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16217,6 +17119,10 @@ PrefabInstance:
     - target: {fileID: 5308859370393545175, guid: ca45500f53865a9438ce45571ad9709f, type: 3}
       propertyPath: m_Name
       value: Arch_WindowVar4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308859370393545175, guid: ca45500f53865a9438ce45571ad9709f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5567472274550108532, guid: ca45500f53865a9438ce45571ad9709f, type: 3}
       propertyPath: m_RootOrder
@@ -16288,6 +17194,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 4506756370910397485, guid: c1d652ae568c900409b25ad911e52ce1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8220651010040453492, guid: c1d652ae568c900409b25ad911e52ce1, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -16335,6 +17245,14 @@ PrefabInstance:
     - target: {fileID: 8220651010040453493, guid: c1d652ae568c900409b25ad911e52ce1, type: 3}
       propertyPath: m_Name
       value: Env_RockSml3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220651010040453493, guid: c1d652ae568c900409b25ad911e52ce1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307058332540276688, guid: c1d652ae568c900409b25ad911e52ce1, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16405,6 +17323,10 @@ PrefabInstance:
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_Name
       value: Arch_BaseCeiling (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16481,6 +17403,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16509,6 +17435,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16629,6 +17559,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16699,6 +17633,10 @@ PrefabInstance:
       value: Arch_AddRoofSide
       objectReference: {fileID: 0}
     - target: {fileID: 6102334975932059121, guid: c8413fc9d08540d4088b9046b860346a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6102334975932059121, guid: c8413fc9d08540d4088b9046b860346a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -16731,6 +17669,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16802,6 +17744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2WayCrnr (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1517993430613685942, guid: f00d320c6bb35784cac14930e84f3541, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3010899640928927221, guid: f00d320c6bb35784cac14930e84f3541, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -16871,6 +17817,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16991,6 +17941,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17059,6 +18013,10 @@ PrefabInstance:
     - target: {fileID: 3984351423912867020, guid: a5a0c0af27e21a44ca2f9e47b91bb203, type: 3}
       propertyPath: m_Name
       value: Kit_Catwalk_2WayCrnr (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984351423912867020, guid: a5a0c0af27e21a44ca2f9e47b91bb203, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17129,6 +18087,10 @@ PrefabInstance:
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_Name
       value: Arch_AddFenceSideVar2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17205,6 +18167,10 @@ PrefabInstance:
       value: Arch_BaseNrmlCrnrVar1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17279,6 +18245,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17301,7 +18271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1696624870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Building1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17339,6 +18309,10 @@ PrefabInstance:
     - target: {fileID: 235708681959659508, guid: 3f7d2b50487b1e94ebf71ddbac299121, type: 3}
       propertyPath: m_Name
       value: Kit_Catwalk_2WaySlopeVar2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 235708681959659508, guid: 3f7d2b50487b1e94ebf71ddbac299121, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6983770525543772378, guid: 3f7d2b50487b1e94ebf71ddbac299121, type: 3}
       propertyPath: m_RootOrder
@@ -17409,6 +18383,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17527,6 +18505,10 @@ PrefabInstance:
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8580204646831251602, guid: 2b9d687e5dea88046ae31aed1cc291bf, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17697,6 +18679,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar1 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17844,6 +18830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_BeamVar1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7515661206166175428, guid: 4130ac6ca702f504d834aa63448140b7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17915,6 +18905,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -17939,6 +18933,10 @@ PrefabInstance:
     - target: {fileID: 3401817013797508826, guid: ff032d582bd6c27449312453527e3f9a, type: 3}
       propertyPath: m_Name
       value: Kit_VentAirOutVar3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401817013797508826, guid: ff032d582bd6c27449312453527e3f9a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4962038441551837591, guid: ff032d582bd6c27449312453527e3f9a, type: 3}
       propertyPath: m_RootOrder
@@ -18067,6 +19065,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall (7)
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -18091,6 +19093,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -18206,6 +19212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18304,6 +19314,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18423,6 +19437,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml8 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4300304818109736259, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093686694230744031, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861512192298375930, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18444,6 +19470,10 @@ PrefabInstance:
     - target: {fileID: 1227286691137183850, guid: 2a7281eda638cbe498b88c376898c869, type: 3}
       propertyPath: m_Name
       value: Kit_Pipe_3Way
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227286691137183850, guid: 2a7281eda638cbe498b88c376898c869, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9051951149759836877, guid: 2a7281eda638cbe498b88c376898c869, type: 3}
       propertyPath: m_RootOrder
@@ -18510,6 +19540,10 @@ PrefabInstance:
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18588,6 +19622,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18703,6 +19741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Vent2Way (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18772,6 +19814,10 @@ PrefabInstance:
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_Name
       value: Arch_BaseCeiling (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18861,6 +19907,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 1551107556146580711, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2559735524984027025, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -18909,6 +19959,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml9 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2559735524984027030, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160192249102411229, guid: b7d6b42671bb8a44ba918c36b1217815, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18930,6 +19988,10 @@ PrefabInstance:
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapR (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543963119737863003, guid: f96ffd392617c2a4888a90f4d93eb063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19072,6 +20134,10 @@ PrefabInstance:
       value: Arch_AddRoofSideCap (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133244629294253144, guid: 833096731b7f29d439a115b83e29d14f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -19144,6 +20210,10 @@ PrefabInstance:
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3543930297953033241, guid: 72a402df791ac3a46b8f01f606c5e349, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19219,6 +20289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml4
       objectReference: {fileID: 0}
+    - target: {fileID: 1999107701942304814, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1999107701942304815, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -19263,6 +20337,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2442377654619092542, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896917609995024279, guid: a7cbc2001cb946345b1e1fd81a1f1853, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19282,12 +20364,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
     - target: {fileID: 7718357835313846442, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718357835313846442, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7871157246462522369, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
       propertyPath: m_Name
       value: Env_Rock3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7871157246462522369, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7871157246462522369, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19336,6 +20426,10 @@ PrefabInstance:
     - target: {fileID: 7871157246462522370, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024709826465716434, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8024709826465716434, guid: 85c6fb0a7e793144c9d715175f66d996, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19412,6 +20506,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -19440,6 +20538,10 @@ PrefabInstance:
     - target: {fileID: 4347372726504207120, guid: a743a1db09e93774e8ed034e24328b4f, type: 3}
       propertyPath: m_Name
       value: Arch_BaseWindowWSideVar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347372726504207120, guid: a743a1db09e93774e8ed034e24328b4f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4347372726504207120, guid: a743a1db09e93774e8ed034e24328b4f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19555,6 +20657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19624,6 +20730,10 @@ PrefabInstance:
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowCrnrVar6 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19700,6 +20810,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (12)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -19724,6 +20838,10 @@ PrefabInstance:
     - target: {fileID: 3401817013797508826, guid: ff032d582bd6c27449312453527e3f9a, type: 3}
       propertyPath: m_Name
       value: Kit_VentAirOutVar3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401817013797508826, guid: ff032d582bd6c27449312453527e3f9a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4962038441551837591, guid: ff032d582bd6c27449312453527e3f9a, type: 3}
       propertyPath: m_RootOrder
@@ -19802,6 +20920,10 @@ PrefabInstance:
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_Name
       value: Arch_BasePillarShortVar1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19921,6 +21043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_VentAirOutVar2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9199276312493219350, guid: 47e5b5eaa60f9124a87f9acb90e37bfe, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19992,6 +21118,10 @@ PrefabInstance:
       value: Arch_BaseDblSidedWall
       objectReference: {fileID: 0}
     - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341662915026443156, guid: 820c7a4466dbdfc40b0f5a9fa1d9a25e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20061,6 +21191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20082,6 +21216,10 @@ PrefabInstance:
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20241,6 +21379,10 @@ PrefabInstance:
       value: Arch_BasePillarShortVar1 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449473457611309576, guid: b6aa2ad5b4500be42ad2e56de5ac002f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20363,6 +21505,10 @@ PrefabInstance:
       value: Arch_AddFenceSideVar2 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860013783136592105, guid: 6b5b911870509e046b171efd3dbb47ee, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20437,6 +21583,10 @@ PrefabInstance:
       value: Arch_BaseNrmlSideVar1 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829962396192353367, guid: 8b30fd7199588754eb98fa3a4c33d3c6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20461,6 +21611,10 @@ PrefabInstance:
     - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2Var1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674514682341452853, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4183616937053045368, guid: a457869cfafaee64f9fcdb1038ffb989, type: 3}
       propertyPath: m_RootOrder
@@ -20541,6 +21695,10 @@ PrefabInstance:
       value: Arch_BaseLowSideVar6 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20615,6 +21773,10 @@ PrefabInstance:
       value: Arch_BaseLowSideVar6 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20683,6 +21845,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20754,6 +21920,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 625394546910893485, guid: c0fe811ed3ba72645aa0a5204461a3ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3570594439171008418, guid: c0fe811ed3ba72645aa0a5204461a3ad, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -20802,6 +21972,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml1
       objectReference: {fileID: 0}
+    - target: {fileID: 3570594439171008445, guid: c0fe811ed3ba72645aa0a5204461a3ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167505428081204809, guid: c0fe811ed3ba72645aa0a5204461a3ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20823,6 +22001,10 @@ PrefabInstance:
     - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
       propertyPath: m_Name
       value: Arch_AddPillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 409013563138488787, guid: 0e161ae600fcd274b8c669700fac5f37, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20902,6 +22084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -20971,6 +22157,10 @@ PrefabInstance:
     - target: {fileID: 1824726083339356438, guid: d9e9609173802b5468ca05e505355a26, type: 3}
       propertyPath: m_Name
       value: Arch_BaseWindowWCrnrRVar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824726083339356438, guid: d9e9609173802b5468ca05e505355a26, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1824726083339356438, guid: d9e9609173802b5468ca05e505355a26, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21045,6 +22235,10 @@ PrefabInstance:
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_Name
       value: Arch_AddRoofSideCapL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 111513554961454777, guid: 53113575b55b3cf418e1cfad0c4e8633, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21165,6 +22359,10 @@ PrefabInstance:
       value: Arch_AddRoofSide (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6102334975932059121, guid: c8413fc9d08540d4088b9046b860346a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6102334975932059121, guid: c8413fc9d08540d4088b9046b860346a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21193,6 +22391,10 @@ PrefabInstance:
     - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_Name
       value: Kit_Steel_Beam2CrnrVar3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631500266992127752, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5621967157144395616, guid: 8a47e14b58d520a4d945d3177507c8c2, type: 3}
       propertyPath: m_RootOrder
@@ -21265,6 +22467,10 @@ PrefabInstance:
       value: Env_Rock8
       objectReference: {fileID: 0}
     - target: {fileID: 1118875409388946314, guid: 6efb54e3e0b6c9b43952f0024bc274dc, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1118875409388946314, guid: 6efb54e3e0b6c9b43952f0024bc274dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21325,8 +22531,16 @@ PrefabInstance:
       value: 3.974
       objectReference: {fileID: 0}
     - target: {fileID: 4994530163837645003, guid: 6efb54e3e0b6c9b43952f0024bc274dc, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4994530163837645003, guid: 6efb54e3e0b6c9b43952f0024bc274dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214141363888088407, guid: 6efb54e3e0b6c9b43952f0024bc274dc, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6214141363888088407, guid: 6efb54e3e0b6c9b43952f0024bc274dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21354,7 +22568,7 @@ GameObject:
   - component: {fileID: 2068110077}
   - component: {fileID: 2068110076}
   - component: {fileID: 2068110075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21504,6 +22718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21525,6 +22743,10 @@ PrefabInstance:
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_Name
       value: Arch_BaseNrmlCrnrVar5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 915075390037730642, guid: 689a4924a3ac23b47a110e4f0f5cfbea, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21649,6 +22871,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21677,6 +22903,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21793,6 +23023,10 @@ PrefabInstance:
       value: Arch_AddSlabBaseVar1 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751983540974789691, guid: 3b6840c2136534c4aa20c74145ff90ff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -21878,6 +23112,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Env_RockSml8 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4300304818109736259, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093686694230744031, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861512192298375930, guid: e7cfab3727acf7d4e8915a0b9fdfcbd0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21903,6 +23149,10 @@ PrefabInstance:
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_Name
       value: Arch_BaseLowSideVar6 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6924032541217922344, guid: e27fa25a3428b004b8112d48369b1bae, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21970,9 +23220,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510889090}
     m_Modifications:
+    - target: {fileID: 2384230090585636729, guid: c0e5ea0ca3802fd43a12c36bfe9a7bc9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613239368670131506, guid: c0e5ea0ca3802fd43a12c36bfe9a7bc9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5204780030722134088, guid: c0e5ea0ca3802fd43a12c36bfe9a7bc9, type: 3}
       propertyPath: m_Name
       value: Env_RockSml6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204780030722134088, guid: c0e5ea0ca3802fd43a12c36bfe9a7bc9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5204780030722134089, guid: c0e5ea0ca3802fd43a12c36bfe9a7bc9, type: 3}
       propertyPath: m_RootOrder
@@ -22083,6 +23345,10 @@ PrefabInstance:
     - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
       propertyPath: m_Name
       value: Kit_Vent2Way (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141139103763609267, guid: ce98a008efb1c6c40ba81ce7b3e6e74c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22227,6 +23493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit_Pipe_2Way (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1915420966714453148, guid: 615563f24cb67e84cb3333f234af7ba8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22364,6 +23634,10 @@ PrefabInstance:
       value: Arch_BaseLowCrnrVar6 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100418374605658079, guid: bb420ae5f8dd25748b61111356c5a259, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -22438,6 +23712,10 @@ PrefabInstance:
       value: Arch_BaseCeiling (5)
       objectReference: {fileID: 0}
     - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913597470164425069, guid: b0ce596da37dd914e98d66a3865eda03, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -22458,5 +23736,5 @@ SceneRoots:
   - {fileID: 98854727}
   - {fileID: 489345423}
   - {fileID: 189926057}
-  - {fileID: 295481346}
   - {fileID: 901600184}
+  - {fileID: 295481346}

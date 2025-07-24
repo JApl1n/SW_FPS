@@ -27,6 +27,11 @@ This project is licensed under the [MIT](LICENSE.md)
 MIT License - see the [LICENSE.md](LICENSE.md) file for
 details
 
+## Assests
+
+  - Geometry (https://assetstore.unity.com/packages/3d/environments/summonbox-prototype-enviroment-asset-pack-standard-rp-190818)
+
 ## Acknowledgments
 
   - Simple Movement System (https://www.youtube.com/@davegamedevelopment)
+  - Shooting Mechanics (https://www.youtube.com/@LlamAcademy)
