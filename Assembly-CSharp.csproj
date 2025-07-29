@@ -67,12 +67,17 @@
     <Compile Include="Assets/Scripts/Guns/ShootConfigurationScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerCam.cs" />
     <Compile Include="Assets/Scripts/Guns/GunType.cs" />
+    <Compile Include="Assets/Scripts/Damage/Enemy.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
     <Compile Include="Assets/Scripts/Guns/TrailConfigScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Guns/GunScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/Damage/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/Guns/PlayerGunSelector.cs" />
+    <Compile Include="Assets/Scripts/Damage/DamageConfigurationScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/Damage/IDamageable.cs" />
     <Compile Include="Assets/Scripts/Guns/Bullet.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/Damage/SpawnParticleSystemOnDeath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

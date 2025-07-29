@@ -17,5 +17,6 @@ MonoBehaviour:
   modelPrefab: {fileID: 8025521901876577474, guid: 9776272a6c5cf46c88b0ee7bb3f02599, type: 3}
   spawnPoint: {x: 0.1, y: 0.1, z: 0.1}
   spawnRotation: {x: 0, y: 0, z: 0}
+  damageConfig: {fileID: 11400000, guid: 75300dca01b0d453f95964fb02c66862, type: 2}
   shootConfig: {fileID: 11400000, guid: 2b6e97493f0594a538087f4132f3e896, type: 2}
   trailConfig: {fileID: 11400000, guid: b288c1d6371384fb3ac0437cb089f23a, type: 2}

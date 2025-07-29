@@ -13,12 +13,18 @@ public class GunScriptableObject : ScriptableObject
     public Vector3 spawnPoint;
     public Vector3 spawnRotation;
 
+    public DamageConfigurationScriptableObject damageConfig;
     public ShootConfigurationScriptableObject shootConfig;
     public TrailConfigScriptableObject trailConfig;
 
     private MonoBehaviour activeMonoBehaviour;
     private GameObject model;
+
     private float lastShootTime;
+    private float initClickTime;
+    private float stopShootTime;
+    private bool lastFrameWantedToShoot;
+
     private ParticleSystem shootSystem;
     private ObjectPool<TrailRenderer> trailPool;
 
@@ -36,23 +42,42 @@ public class GunScriptableObject : ScriptableObject
     }
 
     public void Shoot() {
+        if (Time.time - lastShootTime - shootConfig.fireRate > Time.deltaTime) {
+            // Let go of fire button before last frame
+            // length of spray last fire
+            float lastDuration = Mathf.Clamp(0, (stopShootTime - initClickTime), shootConfig.maxSpreadTime);
+            float lerpTime = (shootConfig.recoilRecoverySpeed - (Time.time - stopShootTime)) / shootConfig.recoilRecoverySpeed;
+            initClickTime = Time.time - Mathf.Lerp(0, lastDuration, Mathf.Clamp01(lerpTime));
+        }
+
         if (Time.time > shootConfig.fireRate + lastShootTime){
             lastShootTime = Time.time;
             shootSystem.Play();  // Play shooting particle system
-            Vector3 shootDirection = shootSystem.transform.forward + new Vector3(
-                Random.Range(-shootConfig.spread.x, shootConfig.spread.x),
-                Random.Range(-shootConfig.spread.y, shootConfig.spread.y),
-                Random.Range(-shootConfig.spread.z, shootConfig.spread.z)
-            );
-            shootDirection.Normalize();
+
+            Vector3 spreadAmount = shootConfig.GetSpread(Time.time - initClickTime);
+            model.transform.forward += model.transform.TransformDirection(spreadAmount);
+            Vector3 shootDirection = model.transform.forward ;
 
             if (Physics.Raycast(shootSystem.transform.position, shootDirection, out RaycastHit hit, float.MaxValue, shootConfig.hitMask)) {
                 activeMonoBehaviour.StartCoroutine(PlayTrail(shootSystem.transform.position, hit.point, hit));
             } else {
                 activeMonoBehaviour.StartCoroutine(PlayTrail(shootSystem.transform.position, 
                     shootSystem.transform.position + (shootDirection*trailConfig.missDistance), new RaycastHit()));
-                    
             }
+
+
+        }
+    }
+
+    public void Tick(bool wantsToShoot) {
+        model.transform.localRotation = Quaternion.Lerp(
+            model.transform.localRotation, Quaternion.Euler(spawnRotation), Time.deltaTime * shootConfig.recoilRecoverySpeed);
+        if (wantsToShoot) {
+            lastFrameWantedToShoot = true;
+            Shoot();
+        } else if (!wantsToShoot && lastFrameWantedToShoot) {
+            stopShootTime = Time.time;
+            lastFrameWantedToShoot = false;
         }
     }
 
@@ -60,7 +85,7 @@ public class GunScriptableObject : ScriptableObject
         TrailRenderer instance = trailPool.Get();
         instance.gameObject.SetActive(true);
         instance.transform.position = startPoint;
-        yield return null;  // make sure using correct frame (in case previous frame position used)
+        // yield return null;  // make sure using correct frame (in case previous frame position used)
 
         instance.emitting = true;
 
@@ -68,7 +93,7 @@ public class GunScriptableObject : ScriptableObject
         float remainingDistance = distance;
 
         while (remainingDistance > 0) {
-            instance.transform.position = Vector3.Lerp(startPoint, endPoint, Mathf.Clamp01(1-(remainingDistance/distance)));
+            instance.transform.position = Vector3.Lerp(startPoint, endPoint, Mathf.Clamp01(1 - (remainingDistance/distance)));
             remainingDistance -= trailConfig.simulationSpeed * Time.deltaTime;
 
             yield return null;
@@ -76,11 +101,15 @@ public class GunScriptableObject : ScriptableObject
 
         instance.transform.position = endPoint;
 
-        // if (hit.collider != null) {
+        if (hit.collider != null) {
         //     SurfaceManager.Instance.HandleImpact(
         //         hit.transform.gameObject, endPoint, hit.normal, impactType, 0
         //     );
-        // }
+            if (hit.collider.TryGetComponent(out IDamageable damageable)) {
+                damageable.TakeDamage(damageConfig.GetDamage(distance));
+            }
+
+        }
 
         yield return new WaitForSeconds(trailConfig.duration);
         yield return null;

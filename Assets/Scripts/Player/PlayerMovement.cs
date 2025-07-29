@@ -91,8 +91,8 @@ public class PlayerMovement : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
 
         // Shoot input 
-        if (Input.GetMouseButton(0) && gunSelector.activeGun != null) {
-            gunSelector.activeGun.Shoot();
+        if (gunSelector.activeGun != null) {
+            gunSelector.activeGun.Tick(Input.GetMouseButton(0));
         }
 
         // Jump input
@@ -146,10 +146,11 @@ public class PlayerMovement : MonoBehaviour
 
         // Handle slope
         if (OnSlope() && !exitingSlope) {
-            rb.AddForce(GetSlopeMoveDir() * moveSpeed * 10f, ForceMode.Force);
+            // Add a force in direction up/down slope 
+            rb.AddForce(GetSlopeMoveDir() * moveSpeed * 10f , ForceMode.Force);
             rb.useGravity = false;
             if (rb.velocity.y > 0) {
-                rb.AddForce(Vector3.down*80f, ForceMode.Force);
+                rb.AddForce(Vector3.down*40f, ForceMode.Force);
             }
         }
         // Grounded
