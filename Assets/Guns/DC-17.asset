@@ -20,3 +20,9 @@ MonoBehaviour:
   damageConfig: {fileID: 11400000, guid: 75300dca01b0d453f95964fb02c66862, type: 2}
   shootConfig: {fileID: 11400000, guid: 2b6e97493f0594a538087f4132f3e896, type: 2}
   trailConfig: {fileID: 11400000, guid: b288c1d6371384fb3ac0437cb089f23a, type: 2}
+  maxWeaponHeat: 10
+  shootHeatCost: 2
+  coolingDelay: 3
+  coolingRate: 5
+  overheatPenalty: 2
+  heatSlider: {fileID: 0}

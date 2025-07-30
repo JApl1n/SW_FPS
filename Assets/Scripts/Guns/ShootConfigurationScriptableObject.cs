@@ -14,6 +14,7 @@ public class ShootConfigurationScriptableObject : ScriptableObject
 
     private Vector3 currentSpread = Vector3.zero;
 
+
     public Vector3 GetSpread(float shootTime = 0) {
         currentSpread = Vector3.Lerp(spread, new Vector3(
             Random.Range(-spread.x * spreadMultiplier, spread.x * spreadMultiplier),
