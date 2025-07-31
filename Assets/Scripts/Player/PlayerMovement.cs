@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
     [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
+    [SerializeField] private KeyCode reloadKey = KeyCode.R;
 
     [Header("Ground Check")]
     [SerializeField] private float playerHeight;
@@ -92,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Shoot input 
         if (gunSelector.activeGun != null) {
-            gunSelector.activeGun.Tick(Input.GetMouseButton(0));
+            gunSelector.activeGun.Tick(Input.GetMouseButton(0), Input.GetKey(reloadKey));
         }
 
         // Jump input

@@ -18,6 +18,7 @@ public class GunScriptableObject : ScriptableObject
     public DamageConfigurationScriptableObject damageConfig;
     public ShootConfigurationScriptableObject shootConfig;
     public TrailConfigScriptableObject trailConfig;
+    public WeaponHeatScriptableObject weaponHeatConfig;
 
     private MonoBehaviour activeMonoBehaviour;
     private GameObject model;
@@ -27,16 +28,15 @@ public class GunScriptableObject : ScriptableObject
     private float stopShootTime;
     private bool lastFrameWantedToShoot;
 
-    [Header ("Overheat Settings")]
-    public float maxWeaponHeat = 10f;
-    public float shootHeatCost = 2f;
-    public float coolingDelay = 1f;
-    public float coolingRate = 1f;
-    public float overheatPenalty = 3f;
-    public Slider heatSlider;
+    
+    private Slider heatSlider;
+    private RectTransform heatSliderBar;
+    private RectTransform goldZoneBar;
 
     private float weaponHeat = 0f;
-    private bool overHeated = false;
+    private bool overheated = false;
+    private bool cooling = false;
+    const int coolingDelayMultiplier = 1024;  // Used to make a coolingDelay bigger then smaller (sets to near 0, then back to original value)
 
 
     private ParticleSystem shootSystem;
@@ -52,16 +52,14 @@ public class GunScriptableObject : ScriptableObject
         model.transform.localPosition = spawnPoint;
         model.transform.localRotation = Quaternion.Euler(spawnRotation);
 
-        weaponHeat = 0f;
-        overHeated = false;
-        coolingDelay = 1f;
-        heatSlider = parent.GetComponentInChildren<Slider>();
+        HandleHeatInit(parent);
+        
 
         shootSystem = model.GetComponentInChildren<ParticleSystem>();
     }
 
     public void Shoot() {
-        if ((Time.time - lastShootTime - shootConfig.fireRate > Time.deltaTime) && (!overHeated)) {
+        if ((Time.time - lastShootTime - shootConfig.fireRate > Time.deltaTime) && (!overheated)) {
             // Let go of fire button before last frame
             // length of spray last fire
             float lastDuration = Mathf.Clamp(0, (stopShootTime - initClickTime), shootConfig.maxSpreadTime);
@@ -69,12 +67,12 @@ public class GunScriptableObject : ScriptableObject
             initClickTime = Time.time - Mathf.Lerp(0, lastDuration, Mathf.Clamp01(lerpTime));
         }
 
-        if ((Time.time > shootConfig.fireRate + lastShootTime) && (!overHeated)){
+        if ((Time.time > shootConfig.fireRate + lastShootTime) && (!overheated) && (!cooling)){
 
-            weaponHeat +=  Mathf.Clamp(shootHeatCost, 0, maxWeaponHeat-weaponHeat); // FIGURE OUT THE MATHS HERE
-            if (weaponHeat >= maxWeaponHeat) {
-                overHeated = true;  // Even if now overheated, can still fire this time.
-                coolingDelay += overheatPenalty;  // Make cooling delay larger to penalise overheating
+            weaponHeat +=  Mathf.Clamp(weaponHeatConfig.shootHeatCost, 0, weaponHeatConfig.maxWeaponHeat-weaponHeat); 
+            if (weaponHeat >= weaponHeatConfig.maxWeaponHeat) {
+                overheated = true;  // Even if now overheated, can still fire this time.
+                weaponHeatConfig.coolingDelay += weaponHeatConfig.overheatPenalty;  // Make cooling delay larger to penalise overheating
             } 
 
             lastShootTime = Time.time;
@@ -94,17 +92,34 @@ public class GunScriptableObject : ScriptableObject
         }
     }
 
-    public void Tick(bool wantsToShoot) {
+    public void Tick(bool wantsToShoot, bool wantsToCool) {
         model.transform.localRotation = Quaternion.Lerp(
             model.transform.localRotation, Quaternion.Euler(spawnRotation), Time.deltaTime * shootConfig.recoilRecoverySpeed);
 
         heatSlider.value = weaponHeat;
 
-        if ((Time.time - lastShootTime) > coolingDelay) {
-            weaponHeat -= Mathf.Clamp(Time.deltaTime * coolingRate, 0, weaponHeat);
-            if ((overHeated) && (weaponHeat == 0)) {
-                overHeated = false;
-                coolingDelay -= overheatPenalty;
+        if (wantsToCool && (!overheated) && (!cooling)) {
+            if ((weaponHeat>=(weaponHeatConfig.maxWeaponHeat*(weaponHeatConfig.goldZonePosition-weaponHeatConfig.goldZoneWidth/2)) && 
+                (weaponHeat<=(weaponHeatConfig.maxWeaponHeat*(weaponHeatConfig.goldZonePosition+weaponHeatConfig.goldZoneWidth/2))))) {
+                // Weapon cooled in gold zone
+                weaponHeat = 0f;
+                Debug.Log("Cooled");
+            } else {
+                Debug.Log("Less cooled");
+                cooling = true;
+                weaponHeatConfig.coolingDelay /= coolingDelayMultiplier;
+            }
+        }
+
+        if ((Time.time - lastShootTime) > weaponHeatConfig.coolingDelay) {
+            weaponHeat -= Mathf.Clamp(Time.deltaTime * weaponHeatConfig.coolingRate, 0, weaponHeat);
+
+            if ((overheated) && (weaponHeat == 0)) {
+                overheated = false;
+                weaponHeatConfig.coolingDelay -= weaponHeatConfig.overheatPenalty;
+            } else if (cooling && (weaponHeat == 0)) {
+                cooling = false;
+                weaponHeatConfig.coolingDelay *= coolingDelayMultiplier;
             }
         }
 
@@ -168,5 +183,30 @@ public class GunScriptableObject : ScriptableObject
         trail.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
         return trail;
+    }
+
+    private void HandleHeatInit(Transform parent) {
+        weaponHeat = 0f;
+        overheated = false;
+        cooling = false;
+        heatSlider = parent.GetComponentInChildren<Slider>();
+        heatSlider.maxValue = weaponHeatConfig.maxWeaponHeat;
+        
+        foreach (RectTransform child in parent.GetComponentsInChildren<RectTransform>()) {
+            if (child.name == "Heat Slider Bar") {
+                heatSliderBar = child;
+            } else if (child.name == "Gold Zone") {
+                goldZoneBar = child;
+            }
+        }
+        if (heatSliderBar == null) {
+            Debug.LogError("Heat Slider Bar not found! Check names of gameobject and check here.");
+        }  // I can't think of another way to find the specific object im looking for so this tries to check everything is working ok
+        if (goldZoneBar == null) {
+            Debug.LogError("Gold Zone not found! Check names of gameobject and check here.");
+        }
+
+        goldZoneBar.anchoredPosition = new Vector2((weaponHeatConfig.goldZonePosition-0.5f) * heatSliderBar.rect.width, 0);
+        goldZoneBar.sizeDelta = new Vector2(weaponHeatConfig.goldZoneWidth * heatSliderBar.rect.width, goldZoneBar.rect.height);
     }
 }
