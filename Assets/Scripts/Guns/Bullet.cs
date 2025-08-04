@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
 
     // Collision data between bullet and other rigidbody
     public delegate void CollisionEvent(Bullet bullet, Collision collision);
-    public event CollisionEvent onCollision;
+    public event CollisionEvent OnCollision;
 
     private void Awake() {
         rb = GetComponent<Rigidbody>();
@@ -39,14 +39,14 @@ public class Bullet : MonoBehaviour
 
 
     private void OnCollisionEnter(Collision collision) {
-        onCollision?.Invoke(this, collision);
+        OnCollision?.Invoke(this, collision);
     }
 
     private void OnDisable() {
         StopAllCoroutines();  // Just in case DelayedDisable ongoing
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-        onCollision = null;
+        OnCollision = null;
     }
 
 }

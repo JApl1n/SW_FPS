@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb336ab70aeb34fc186ce0b1f24bc06c, type: 3}
   m_Name: DC-17 Shoot Config
   m_EditorClassIdentifier: 
+  isHitScan: 0
+  bulletPrefab: {fileID: 2231932110506564175, guid: 7cde04f3bb4ab46b7b56b209a1da0cef, type: 3}
+  bulletSpawnForce: 1000
   hitMask:
     serializedVersion: 2
     m_Bits: 385

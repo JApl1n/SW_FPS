@@ -14,7 +14,7 @@ Requirements for the software and other tools to build, test and push
  
 ### Installing
 
-**Zip file**: First download the code zip file of this repository. Open Unity Hub and select 'Add' from the projects window, then select 'Add project from disk'. Choose the unzipped file you just downloaded then click 'Open'. This should load the unity files and start the project. *edit, for a build that has no library files, it will load a black smaple scene. To load the current scene, in the project files tab in unity, go to Assets/SBPrototypeEnvironment_SRP/Scenes/SampleBuilding and drag and drop this scene into the Hierarchy tabe (delete the old one by clicking on the three dots to the right of the old SampleScene and select Remove Scene).
+**Zip file**: First download the code zip file of this repository. Open Unity Hub and select 'Add' from the projects window, then select 'Add project from disk'. Choose the unzipped file you just downloaded then click 'Open'. This should load the unity files and start the project. *edit, for a build that has no library files, it will load a blank sample scene. To load the intended one, go the assets window and under the 'Scenes' folder, double click on the Main Menu scene. You are then ready to start by clicking the play button in unity (not the play button within the game window).
 
 
 ## Authors
@@ -36,3 +36,4 @@ details
 
   - Simple Movement System (https://www.youtube.com/@davegamedevelopment)
   - Shooting Mechanics (https://www.youtube.com/@LlamAcademy)
+  - Menu (https://www.youtube.com/@Brackeys and https://wallpapers.com/wallpapers/plain-black-desktop-pymd683ek4kpprzh.html)
