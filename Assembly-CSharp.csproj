@@ -68,15 +68,18 @@
     <Compile Include="Assets/Scripts/Player/PlayerCam.cs" />
     <Compile Include="Assets/Scripts/Game Handling/CameraInit.cs" />
     <Compile Include="Assets/Scripts/Guns/GunType.cs" />
-    <Compile Include="Assets/Scripts/Damage/Enemy.cs" />
+    <Compile Include="Assets/Scripts/Enemies/SimpleEnemy.cs" />
     <Compile Include="Assets/Scripts/Game Handling/ValueCarry.cs" />
+    <Compile Include="Assets/Scripts/Enemies/Enemy.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
     <Compile Include="Assets/Scripts/Game Handling/OptionsMenu.cs" />
     <Compile Include="Assets/Scripts/Guns/TrailConfigScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/Game Handling/Spawner.cs" />
     <Compile Include="Assets/Scripts/Guns/GunScriptableObject.cs" />
-    <Compile Include="Assets/Scripts/Damage/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/Guns/PlayerGunSelector.cs" />
     <Compile Include="Assets/Scripts/Damage/DamageConfigurationScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/Damage/Objective.cs" />
+    <Compile Include="Assets/Scripts/Damage/EntityHealth.cs" />
     <Compile Include="Assets/Scripts/Damage/IDamageable.cs" />
     <Compile Include="Assets/Scripts/Guns/Bullet.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
@@ -953,6 +956,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1037,6 +1044,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1053,6 +1064,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
@@ -1063,6 +1078,10 @@
     </Reference>
     <Reference Include="Unity.Animation.Rigging">
       <HintPath>Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

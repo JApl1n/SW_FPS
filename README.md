@@ -37,3 +37,4 @@ details
   - Simple Movement System (https://www.youtube.com/@davegamedevelopment)
   - Shooting Mechanics (https://www.youtube.com/@LlamAcademy)
   - Menu (https://www.youtube.com/@Brackeys and https://wallpapers.com/wallpapers/plain-black-desktop-pymd683ek4kpprzh.html)
+  - Enemy AI (https://goap.crashkonijn.com/)

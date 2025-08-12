@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour, IDamageable
+public class EntityHealth : MonoBehaviour, IDamageable
 {
     [SerializeField] private int _maxHealth = 100;
     [SerializeField] private int _health;

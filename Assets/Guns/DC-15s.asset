@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557000695ab094adfb6f1d48600e2ace, type: 3}
+  m_Name: DC-15s
+  m_EditorClassIdentifier: 
+  type: 1
+  name: DC-15s
+  modelPrefab: {fileID: 8025521901876577474, guid: 42e4ebe2949434f43b1fda4359f48fe5, type: 3}
+  spawnPoint: {x: 0.1, y: 0.1, z: 0.1}
+  spawnRotation: {x: 0, y: 0, z: 0}
+  damageConfig: {fileID: 11400000, guid: 8f985d4b5d2f3471e8187539a06edfc5, type: 2}
+  shootConfig: {fileID: 11400000, guid: d0ae68dd2b1484d1db011ed33d46fa9d, type: 2}
+  trailConfig: {fileID: 11400000, guid: 6e787e01239c04daeb785db699260a5c, type: 2}
+  weaponHeatConfig: {fileID: 11400000, guid: f8750221a39d345d4970eb7474461067, type: 2}
