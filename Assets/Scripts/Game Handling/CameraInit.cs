@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraInit : MonoBehaviour
 {
-    [SerializeField] private Camera camera;
+    [SerializeField] private Camera sceneCamera;
 
     [SerializeField] public ValueCarry valueCarry;
     void Start()
     {
-        camera.fieldOfView = ValueCarry.FOV;
+        sceneCamera.fieldOfView = ValueCarry.FOV;
     }
 }

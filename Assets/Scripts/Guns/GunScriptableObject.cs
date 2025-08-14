@@ -111,23 +111,23 @@ public class GunScriptableObject : ScriptableObject
         bullet.transform.position = shootSystem.transform.position;
         bullet.Spawn(shootDirection * shootConfig.bulletSpawnForce);
 
-        TrailRenderer trail = trailPool.Get();
-        if (trail != null) {
-            trail.transform.SetParent(bullet.transform, false);
-            trail.transform.localPosition = Vector3.zero;
-            trail.emitting = true;
-            trail.gameObject.SetActive(true);
-        }
+        // TrailRenderer trail = trailPool.Get();
+        // if (trail != null) {
+        //     trail.transform.SetParent(bullet.transform, false);
+        //     trail.transform.localPosition = Vector3.zero;
+        //     trail.emitting = true;
+        //     trail.gameObject.SetActive(true);
+        // }
 
     }
 
 
     private void HandleBulletCollision(Bullet bullet, Collision collision) {
-        TrailRenderer trail = bullet.GetComponentInChildren<TrailRenderer>();
-        if (trail != null) {
-            trail.transform.SetParent(null, true);
-            activeMonoBehaviour.StartCoroutine(DelayedDisableTrail(trail));
-        }
+        // TrailRenderer trail = bullet.GetComponentInChildren<TrailRenderer>();
+        // if (trail != null) {
+        //     trail.transform.SetParent(null, true);
+        //     activeMonoBehaviour.StartCoroutine(DelayedDisableTrail(trail));
+        // }
 
         bullet.gameObject.SetActive(false);
         bulletPool.Release(bullet);
@@ -143,7 +143,9 @@ public class GunScriptableObject : ScriptableObject
 
     private void HandleBulletImpact(float distanceTravelled, Vector3 hitLocation, Vector3 hitNormal, Collider collider) {
         if (collider.TryGetComponent(out IDamageable damageable)) {
-            damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+            if (collider.CompareTag("enemy")) {
+                damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+            }
         }
     }
 
@@ -152,7 +154,15 @@ public class GunScriptableObject : ScriptableObject
         model.transform.localRotation = Quaternion.Lerp(
             model.transform.localRotation, Quaternion.Euler(spawnRotation), Time.deltaTime * shootConfig.recoilRecoverySpeed);
 
+        // Update heat slider UI
+        // Look into changing colour with heat
         weaponHeatConfig.heatSlider.value = weaponHeat;
+        if (weaponHeat == 0) {
+                weaponHeatConfig.heatSliderBarImage.color = new Color(0,0,0,0); 
+            // Make transparent
+        } else {
+            weaponHeatConfig.heatSliderBarImage.color = weaponHeatConfig.barColour;
+        }
 
         if (wantsToCool && (!overheated) && (!cooling)) {
             if ((weaponHeat>=(weaponHeatConfig.maxWeaponHeat*(weaponHeatConfig.goldZonePosition-weaponHeatConfig.goldZoneWidth/2)) && 

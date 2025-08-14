@@ -17,9 +17,13 @@ public class SimpleEnemy : MonoBehaviour
 
     private float lastTimeFired;
     private ObjectPool<Bullet> bulletPool;
+
+    private bool inRange;
+    private bool hasLOS;
     
 
     void Start() {
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         bulletPool = new ObjectPool<Bullet>(CreateBullet);
         target = GameObject.Find("Objective").transform;  // I know its bad to use but for now it works
         agent.isStopped = false;
@@ -28,17 +32,19 @@ public class SimpleEnemy : MonoBehaviour
     }
 
     
-    void Update() {
-        if (agent.remainingDistance < targetDistance) {
-            UnityEngine.AI.NavMeshHit hit;
-            if (agent.Raycast(target.position, out hit)) {
-                agent.isStopped = true;
-                TryShoot(hit);
-            }
+    void Update() { 
+        if (agent.remainingDistance < targetDistance) { 
+            if (agent.Raycast(target.position, out _)) { 
+                agent.isStopped = true; 
+                TryShoot(); 
+            } 
+        } else {
+            agent.isStopped = false; 
         }
     }
 
-    private void TryShoot(UnityEngine.AI.NavMeshHit hit) {
+
+    private void TryShoot() {
         if ((Time.time - lastTimeFired) > shootConfig.fireRate) {
             lastTimeFired = Time.time;
             DoProjectileShoot((target.position - agent.transform.position));
@@ -51,7 +57,7 @@ public class SimpleEnemy : MonoBehaviour
         bullet.gameObject.SetActive(true);
         bullet.OnCollision += HandleBulletCollision;
         bullet.transform.position = (agent.transform.position + agent.transform.forward);
-        bullet.Spawn(shootDirection * shootConfig.bulletSpawnForce);
+        bullet.Spawn(shootDirection.normalized * shootConfig.bulletSpawnForce);
 
     }
 
@@ -69,8 +75,11 @@ public class SimpleEnemy : MonoBehaviour
 
 
     private void HandleBulletImpact(float distanceTravelled, Vector3 hitLocation, Vector3 hitNormal, Collider collider) {
-        if (collider.transform.parent.TryGetComponent(out IDamageable damageable)) {
-            damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+        IDamageable damageable;
+        if (collider.TryGetComponent(out damageable) || collider.transform.parent.TryGetComponent(out damageable)) {
+            if (collider.CompareTag("player") || collider.CompareTag("objective")) {
+                damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+            }
         }
     }
 

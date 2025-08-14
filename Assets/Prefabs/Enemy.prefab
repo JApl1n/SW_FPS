@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6276270431434027980}
   - component: {fileID: 4593609897363137908}
   m_Layer: 5
-  m_Name: Fill
+  m_Name: Enemy Health Slider Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2956405789658110271}
   m_Layer: 5
-  m_Name: Fill Area
+  m_Name: Enemy Health Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,8 +127,8 @@ GameObject:
   - component: {fileID: 1274719522267225296}
   - component: {fileID: 7945342280656584418}
   m_Layer: 8
-  m_Name: Visuals
-  m_TagString: Untagged
+  m_Name: Enemy Visuals
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5638,7 +5638,7 @@ GameObject:
   - component: {fileID: 7695249477547751977}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5674,7 +5674,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: {fileID: 1274719522267225296}
   enemyHealthSlider: {fileID: 2673258714063745409}
-  camera: {fileID: 0}
 --- !u!114 &7926964576831618268
 MonoBehaviour:
   m_ObjectHideFlags: 0
