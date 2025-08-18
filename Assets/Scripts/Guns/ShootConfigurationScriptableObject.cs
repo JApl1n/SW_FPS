@@ -7,6 +7,7 @@ public class ShootConfigurationScriptableObject : ScriptableObject
     public bool isHitScan = true;
     public Bullet bulletPrefab;
     public float bulletSpawnForce = 1000;
+    public float bulletSpawnOffset;
     public LayerMask hitMask;
     public Vector3 spread = new Vector3(0.1f, 0.1f, 0.1f);
     public float fireRate = 0.25f;

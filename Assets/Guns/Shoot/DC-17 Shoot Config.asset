@@ -15,11 +15,12 @@ MonoBehaviour:
   isHitScan: 0
   bulletPrefab: {fileID: 2231932110506564175, guid: 7cde04f3bb4ab46b7b56b209a1da0cef, type: 3}
   bulletSpawnForce: 20
+  bulletSpawnOffset: 0.35
   hitMask:
     serializedVersion: 2
     m_Bits: 0
   spread: {x: 0.015, y: 0.015, z: 0.025}
-  fireRate: 0.3
+  fireRate: 0.1
   spreadMultiplier: 4
   recoilRecoverySpeed: 5
   maxSpreadTime: 1

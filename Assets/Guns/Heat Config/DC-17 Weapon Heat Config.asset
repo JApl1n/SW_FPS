@@ -20,6 +20,8 @@ MonoBehaviour:
   goldZonePosition: 0.75
   goldZoneWidth: 0.2
   goldZoneReward: 5
+  barColour: {r: 1, g: 1, b: 1, a: 0.62352943}
   heatSlider: {fileID: 0}
   heatSliderBar: {fileID: 0}
+  heatSliderBarImage: {fileID: 0}
   goldZoneBar: {fileID: 0}

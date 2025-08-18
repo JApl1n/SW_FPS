@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
         spawnerPos = this.transform.position;
         for (int i=0; i<numEnemies; i++) {
             currentPos = new Vector3 (spawnerPos.x + spacing*(i%5), spawnerPos.y, 
-                spawnerPos.z + spacing*(i/5));
+                spawnerPos.z + spacing*(i/rowSize));
             Instantiate(enemy, currentPos, Quaternion.identity);
         }
     }

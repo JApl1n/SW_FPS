@@ -15,6 +15,7 @@ MonoBehaviour:
   isHitScan: 0
   bulletPrefab: {fileID: 2231932110506564175, guid: 7cde04f3bb4ab46b7b56b209a1da0cef, type: 3}
   bulletSpawnForce: 20
+  bulletSpawnOffset: 0.6
   hitMask:
     serializedVersion: 2
     m_Bits: 0

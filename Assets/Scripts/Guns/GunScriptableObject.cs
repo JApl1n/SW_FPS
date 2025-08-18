@@ -108,7 +108,7 @@ public class GunScriptableObject : ScriptableObject
         Bullet bullet = bulletPool.Get();
         bullet.gameObject.SetActive(true);
         bullet.OnCollision += HandleBulletCollision;
-        bullet.transform.position = shootSystem.transform.position;
+        bullet.transform.position = shootSystem.transform.position + (shootSystem.transform.forward*shootConfig.bulletSpawnOffset);
         bullet.Spawn(shootDirection * shootConfig.bulletSpawnForce);
 
         // TrailRenderer trail = trailPool.Get();

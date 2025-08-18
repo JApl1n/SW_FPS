@@ -64,20 +64,31 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/GOAP/WorldKeys/IsPursuingObjective.cs" />
+    <Compile Include="Assets/Scripts/GOAP/TargetKeys/ObjectiveTarget.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Sensors/ObjectiveTargetSensor.cs" />
     <Compile Include="Assets/Scripts/Guns/ShootConfigurationScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerCam.cs" />
     <Compile Include="Assets/Scripts/Game Handling/CameraInit.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Actions/ShootTargetAction.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerHealth.cs" />
     <Compile Include="Assets/Scripts/Guns/GunType.cs" />
     <Compile Include="Assets/Scripts/Enemies/SimpleEnemy.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentShootBehaviour.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentMoveBehaviour.cs" />
     <Compile Include="Assets/Scripts/Game Handling/ValueCarry.cs" />
+    <Compile Include="Assets/Scripts/GOAP/WorldKeys/IsShootingTarget.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
     <Compile Include="Assets/Scripts/Game Handling/OptionsMenu.cs" />
     <Compile Include="Assets/Scripts/Guns/TrailConfigScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Game Handling/Spawner.cs" />
     <Compile Include="Assets/Scripts/Guns/GunScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Actions/PursueObjectiveAction.cs" />
+    <Compile Include="Assets/Scripts/GOAP/AgentTypes/AgentTypeFactory.cs" />
     <Compile Include="Assets/Scripts/Guns/PlayerGunSelector.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentBrain.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Goals/ObjectiveGoal.cs" />
     <Compile Include="Assets/Scripts/Damage/DamageConfigurationScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Damage/Objective.cs" />
     <Compile Include="Assets/Scripts/Damage/EntityHealth.cs" />
@@ -88,6 +99,7 @@
     <Compile Include="Assets/Scripts/Guns/WeaponHeatScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Damage/SpawnParticleSystemOnDeath.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerAction.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Capabilities/ObjectiveCapabilityFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -443,6 +455,10 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
@@ -1041,6 +1057,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
@@ -1087,6 +1107,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="CrashKonijn.Goap.Runtime.csproj" />
+    <ProjectReference Include="CrashKonijn.Goap.Resolver.csproj" />
+    <ProjectReference Include="CrashKonijn.Agent.Runtime.csproj" />
+    <ProjectReference Include="CrashKonijn.Agent.Core.csproj" />
+    <ProjectReference Include="CrashKonijn.Goap.Core.csproj" />
+    <ProjectReference Include="CrashKonijn.Goap.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
