@@ -11,6 +11,7 @@ namespace GOAP.AgentTypes
             var factory = new AgentTypeBuilder("ScriptAgent");
             
             factory.AddCapability<ObjectiveCapabilityFactory>();
+            factory.AddCapability<ShootCapabilityFactory>();
 
             return factory.Build();
         }

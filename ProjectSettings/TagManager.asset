@@ -7,6 +7,8 @@ TagManager:
   - objective
   - player
   - enemy
+  - GOAP
+  - turret
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - bullet
   - objective
   - player
-  - 
-  - 
+  - objectiveSensor
+  - turret
   - 
   - 
   - 

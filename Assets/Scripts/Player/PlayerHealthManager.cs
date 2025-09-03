@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealthManager : MonoBehaviour
 {
     public EntityHealth health;
     [SerializeField] private Slider playerHealthSlider;
@@ -18,13 +18,9 @@ public class PlayerHealth : MonoBehaviour
         sceneCamera = GameObject.Find("Camera").GetComponent<Camera>();
     }
 
-    // private void Update() {
-    //     playerHealthSlider.transform.rotation = sceneCamera.transform.rotation;
-    // }
 
     private void Die(Vector3 position) {
         Debug.Log("Player Dead");
-        // Destroy(this.gameObject);
     }
 
     private void UpdateHealthBar(int damageTaken) {

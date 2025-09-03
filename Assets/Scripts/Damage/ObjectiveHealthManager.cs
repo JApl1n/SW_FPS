@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Objective : MonoBehaviour
+public class ObjectiveHealthManager : MonoBehaviour
 {
     public EntityHealth health;
     [SerializeField] private Slider objectiveHealthSlider;

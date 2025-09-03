@@ -63,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;  // prevents rb from falling over
 
         readyToJump = true;
+        state = MovementState.walking;
 
         startYScale = transform.localScale.y;
     }

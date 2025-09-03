@@ -1,21 +1,20 @@
 using CrashKonijn.Agent.Core;
 using CrashKonijn.Goap.Runtime;
 using UnityEngine;
+using GOAP.Behaviours;
 
 namespace GOAP.Sensors
 {
-    public class ObjectiveTargetSensor : LocalTargetSensorBase
-    {
+    public class ObjectiveTargetSensor : LocalTargetSensorBase {
+        private DataBehaviour data;
+
         public override void Created() { }
 
-        // Is called every frame that an agent of an `AgentType` that uses this sensor needs it.
-        // This can be used to 'cache' data that is used in the `Sense` method.
-        // Eg look up all the trees in the scene, and then find the closest one in the Sense method.
-        public override void Update() { }
+        public override void Update() {}
 
-        public override ITarget Sense(IActionReceiver agent, IComponentReference references, ITarget existingTarget)
-        {
-            Vector3 targetPosition = GameObject.Find("Objective").transform.position;
+        public override ITarget Sense(IActionReceiver agent, IComponentReference references, ITarget existingTarget) {
+            DataBehaviour data = references.GetCachedComponent<DataBehaviour>();
+            Vector3 targetPosition = data.objective.transform.position;
 
             // If the existing target is a `PositionTarget`, we can reuse it and just update the position.
             if (existingTarget is PositionTarget positionTarget) {

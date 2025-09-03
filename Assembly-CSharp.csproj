@@ -59,38 +59,50 @@
     <UnityVersion>2022.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/japlin/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/japlin/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.3/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/GOAP/Sensors/ObjectiveHealthSensor.cs" />
     <Compile Include="Assets/Scripts/GOAP/WorldKeys/IsPursuingObjective.cs" />
     <Compile Include="Assets/Scripts/GOAP/TargetKeys/ObjectiveTarget.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Goals/DestroyTargetGoal.cs" />
     <Compile Include="Assets/Scripts/GOAP/Sensors/ObjectiveTargetSensor.cs" />
     <Compile Include="Assets/Scripts/Guns/ShootConfigurationScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerCam.cs" />
+    <Compile Include="Assets/Scripts/GOAP/IInjectable.cs" />
     <Compile Include="Assets/Scripts/Game Handling/CameraInit.cs" />
+    <Compile Include="Assets/Scripts/Sensors/TargetSensor.cs" />
     <Compile Include="Assets/Scripts/GOAP/Actions/ShootTargetAction.cs" />
-    <Compile Include="Assets/Scripts/Player/PlayerHealth.cs" />
     <Compile Include="Assets/Scripts/Guns/GunType.cs" />
     <Compile Include="Assets/Scripts/Enemies/SimpleEnemy.cs" />
     <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentShootBehaviour.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Sensors/PlayerHealthSensor.cs" />
     <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentMoveBehaviour.cs" />
+    <Compile Include="Assets/Scripts/GOAP/WorldKeys/ObjectiveHealth.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Sensors/TargetHealthSensor.cs" />
+    <Compile Include="Assets/Scripts/GOAP/TargetKeys/CurrentTarget.cs" />
     <Compile Include="Assets/Scripts/Game Handling/ValueCarry.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Capabilities/ShootCapabilityFactory.cs" />
     <Compile Include="Assets/Scripts/GOAP/WorldKeys/IsShootingTarget.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
+    <Compile Include="Assets/Scripts/GOAP/DependencyInjector.cs" />
     <Compile Include="Assets/Scripts/Game Handling/OptionsMenu.cs" />
     <Compile Include="Assets/Scripts/Guns/TrailConfigScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/GOAP/WorldKeys/TargetHealth.cs" />
     <Compile Include="Assets/Scripts/Game Handling/Spawner.cs" />
     <Compile Include="Assets/Scripts/Guns/GunScriptableObject.cs" />
     <Compile Include="Assets/Scripts/GOAP/Actions/PursueObjectiveAction.cs" />
     <Compile Include="Assets/Scripts/GOAP/AgentTypes/AgentTypeFactory.cs" />
     <Compile Include="Assets/Scripts/Guns/PlayerGunSelector.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Goals/MoveToObjectiveGoal.cs" />
     <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentBrain.cs" />
-    <Compile Include="Assets/Scripts/GOAP/Goals/ObjectiveGoal.cs" />
+    <Compile Include="Assets/Scripts/Damage/ObjectiveHealthManager.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Behaviours/DataBehaviour.cs" />
     <Compile Include="Assets/Scripts/Damage/DamageConfigurationScriptableObject.cs" />
-    <Compile Include="Assets/Scripts/Damage/Objective.cs" />
+    <Compile Include="Assets/Scripts/Turrets/TurretHealthManager.cs" />
     <Compile Include="Assets/Scripts/Damage/EntityHealth.cs" />
     <Compile Include="Assets/Scripts/Damage/IDamageable.cs" />
     <Compile Include="Assets/Scripts/Guns/Bullet.cs" />
@@ -98,7 +110,10 @@
     <Compile Include="Assets/Scripts/Game Handling/MainMenu.cs" />
     <Compile Include="Assets/Scripts/Guns/WeaponHeatScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Damage/SpawnParticleSystemOnDeath.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Config/AttackConfigScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerHealthManager.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerAction.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Sensors/CurrentTargetSensor.cs" />
     <Compile Include="Assets/Scripts/GOAP/Capabilities/ObjectiveCapabilityFactory.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -2,68 +2,80 @@ using CrashKonijn.Agent.Core;
 using CrashKonijn.Agent.Runtime;
 using UnityEngine;
 
-namespace GOAP.Behaviours
-{
-    public class AgentMoveBehaviour : MonoBehaviour
-    {
+namespace GOAP.Behaviours {
+    public class AgentMoveBehaviour : MonoBehaviour {
         private AgentBehaviour agent;
         private ITarget currentTarget;
         private bool shouldMove;
 
         private UnityEngine.AI.NavMeshAgent nmAgent;
 
-        private void Awake()
-        {
+        private void Awake() {
             this.agent = this.GetComponent<AgentBehaviour>();
             this.nmAgent = this.GetComponent<UnityEngine.AI.NavMeshAgent>();
-            this.nmAgent.isStopped = false;
-
         }
 
-        private void OnEnable()
-        {
+        private void OnEnable() {
+            this.agent.Events.OnActionStart += this.OnActionStart;
+            this.agent.Events.OnActionStop += this.OnActionStop;
+            this.agent.Events.OnActionComplete += this.OnActionComplete;
             this.agent.Events.OnTargetInRange += this.OnTargetInRange;
             this.agent.Events.OnTargetChanged += this.OnTargetChanged;
             this.agent.Events.OnTargetNotInRange += this.TargetNotInRange;
             this.agent.Events.OnTargetLost += this.TargetLost;
         }
 
-        private void OnDisable()
-        {
+        private void OnDisable() {
+            this.agent.Events.OnActionStart -= this.OnActionStart;
+            this.agent.Events.OnActionComplete -= this.OnActionComplete;
             this.agent.Events.OnTargetInRange -= this.OnTargetInRange;
             this.agent.Events.OnTargetChanged -= this.OnTargetChanged;
             this.agent.Events.OnTargetNotInRange -= this.TargetNotInRange;
             this.agent.Events.OnTargetLost -= this.TargetLost;
         }
         
-        private void TargetLost()
-        {
-            this.currentTarget = null;
-            // this.nmAgent.isStopped = true;
+        // Action Events
+        private void OnActionStart(IAction action) {
+            this.nmAgent.isStopped = true;
+            this.shouldMove = true;
+        }
+
+        private void OnActionStop(IAction action) {
+            Debug.Log("1");
+            this.nmAgent.isStopped = true;
             this.shouldMove = false;
         }
 
-        private void OnTargetInRange(ITarget target)
-        {
+        private void OnActionComplete(IAction action) {
+            Debug.Log("2");
+            this.nmAgent.isStopped = true;
+            this.shouldMove = false;
+        }
+
+
+        // Target Events
+        private void TargetLost() {
+            this.currentTarget = null;
+        }
+
+        private void OnTargetInRange(ITarget target) {
             this.shouldMove = false;
             this.nmAgent.isStopped = true;
+            Debug.Log("3");
         }
 
-        private void OnTargetChanged(ITarget target, bool inRange)
-        {
+        private void OnTargetChanged(ITarget target, bool inRange) {
             this.currentTarget = target;
             this.shouldMove = !inRange;
             this.nmAgent.destination = this.currentTarget.Position;
         }
 
-        private void TargetNotInRange(ITarget target)
-        {
+        private void TargetNotInRange(ITarget target) {
             this.shouldMove = true;
             this.nmAgent.isStopped = false;
         }
 
-        public void Update()
-        {
+        public void Update() {
           if (this.agent.IsPaused)
                 return;
 
@@ -75,11 +87,9 @@ namespace GOAP.Behaviours
 
         }
 
-        private void OnDrawGizmos()
-        {
+        private void OnDrawGizmos() {
             if (this.currentTarget == null)
                 return;
-            
             Gizmos.DrawLine(this.transform.position, this.currentTarget.Position);
         }
     }
