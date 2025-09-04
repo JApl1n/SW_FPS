@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EnemyAttackConfig
   m_EditorClassIdentifier: 
   sensorRadius: 10
-  rangedAttackRadius: 8
+  rangedAttackRadius: 5
   rangedAttackCost: 1
   attackableLayerMask:
     serializedVersion: 2

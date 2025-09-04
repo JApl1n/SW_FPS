@@ -12,11 +12,13 @@ namespace GOAP {
 
         private float targetHealth;
         private DataBehaviour dataBehaviour;
+        private AgentShootBehaviour shootBehaviour;
 
         public override void Start(IMonoAgent agent, Data data) {
             data.Time = 0f;
             data.LastTimeFired = data.Time;
             dataBehaviour = agent.GetComponent<DataBehaviour>();
+            shootBehaviour = agent.GetComponent<AgentShootBehaviour>();
         }
 
         public override IActionRunState Perform(IMonoAgent agent, Data data, IActionContext context) { 
@@ -31,7 +33,7 @@ namespace GOAP {
             if (shouldAttack) {
                 if ((data.Time - data.LastTimeFired) > shootConfig.fireRate) {
                     // Perform attack
-                    agent.GetComponent<AgentShootBehaviour>().DoProjectileShoot((data.Target.Position - agent.transform.position));
+                    shootBehaviour.DoProjectileShoot((data.Target.Position - agent.transform.position));
                     data.LastTimeFired = data.Time;
                 }
             }
@@ -39,7 +41,6 @@ namespace GOAP {
             // Complete action if target detroyed/out of health
             targetHealth = dataBehaviour.currentTargetHealth;
             if (targetHealth == null || targetHealth <= 0) {
-                Debug.Log("Completed");
                 return ActionRunState.Completed;
             }
 

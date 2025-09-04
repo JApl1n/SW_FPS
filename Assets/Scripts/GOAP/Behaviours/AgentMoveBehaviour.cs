@@ -8,7 +8,7 @@ namespace GOAP.Behaviours {
         private ITarget currentTarget;
         private bool shouldMove;
 
-        private UnityEngine.AI.NavMeshAgent nmAgent;
+        public UnityEngine.AI.NavMeshAgent nmAgent;
 
         private void Awake() {
             this.agent = this.GetComponent<AgentBehaviour>();
@@ -41,13 +41,11 @@ namespace GOAP.Behaviours {
         }
 
         private void OnActionStop(IAction action) {
-            Debug.Log("1");
             this.nmAgent.isStopped = true;
             this.shouldMove = false;
         }
 
         private void OnActionComplete(IAction action) {
-            Debug.Log("2");
             this.nmAgent.isStopped = true;
             this.shouldMove = false;
         }
@@ -61,7 +59,6 @@ namespace GOAP.Behaviours {
         private void OnTargetInRange(ITarget target) {
             this.shouldMove = false;
             this.nmAgent.isStopped = true;
-            Debug.Log("3");
         }
 
         private void OnTargetChanged(ITarget target, bool inRange) {

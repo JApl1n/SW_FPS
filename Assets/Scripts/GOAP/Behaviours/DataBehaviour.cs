@@ -35,7 +35,7 @@ namespace GOAP.Behaviours {
             if (currentTarget.GetComponentInChildren<EntityHealth>() != null) {
                 currentTargetHealth = currentTarget.GetComponentInChildren<EntityHealth>().currentHealth;
             } else {
-                currentTargetHealth = 0;
+                currentTargetHealth = 0f;
             }
         }  
     }
