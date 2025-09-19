@@ -71,6 +71,7 @@
     <Compile Include="Assets/Scripts/GOAP/Sensors/ObjectiveTargetSensor.cs" />
     <Compile Include="Assets/Scripts/Guns/ShootConfigurationScriptableObject.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerCam.cs" />
+    <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentBrainBehaviour.cs" />
     <Compile Include="Assets/Scripts/GOAP/IInjectable.cs" />
     <Compile Include="Assets/Scripts/Game Handling/CameraInit.cs" />
     <Compile Include="Assets/Scripts/Sensors/TargetSensor.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets/Scripts/GOAP/TargetKeys/CurrentTarget.cs" />
     <Compile Include="Assets/Scripts/Game Handling/ValueCarry.cs" />
     <Compile Include="Assets/Scripts/GOAP/Capabilities/ShootCapabilityFactory.cs" />
+    <Compile Include="Assets/ItemPickup.cs" />
     <Compile Include="Assets/Scripts/GOAP/WorldKeys/IsShootingTarget.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
@@ -98,7 +100,6 @@
     <Compile Include="Assets/Scripts/GOAP/AgentTypes/AgentTypeFactory.cs" />
     <Compile Include="Assets/Scripts/Guns/PlayerGunSelector.cs" />
     <Compile Include="Assets/Scripts/GOAP/Goals/MoveToObjectiveGoal.cs" />
-    <Compile Include="Assets/Scripts/GOAP/Behaviours/AgentBrain.cs" />
     <Compile Include="Assets/Scripts/Damage/ObjectiveHealthManager.cs" />
     <Compile Include="Assets/Scripts/GOAP/Behaviours/DataBehaviour.cs" />
     <Compile Include="Assets/Scripts/Damage/DamageConfigurationScriptableObject.cs" />

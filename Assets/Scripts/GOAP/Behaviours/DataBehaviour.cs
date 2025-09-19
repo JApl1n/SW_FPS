@@ -4,13 +4,6 @@ using UnityEngine;
 
 namespace GOAP.Behaviours {
     public class DataBehaviour : MonoBehaviour {
-        // [HideInInspector] public float objectiveHealth;
-        // [HideInInspector] public float playerHealth;
-        // [HideInInspector] public float currentTargetHealth;
-
-        // [HideInInspector] public GameObject objective;
-        // [HideInInspector] public GameObject player;
-        // [HideInInspector] public GameObject currentTarget;
 
         public float objectiveHealth;
         public float playerHealth;

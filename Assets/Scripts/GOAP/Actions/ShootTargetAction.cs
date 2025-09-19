@@ -40,7 +40,7 @@ namespace GOAP {
 
             // Complete action if target detroyed/out of health
             targetHealth = dataBehaviour.currentTargetHealth;
-            if (targetHealth == null || targetHealth <= 0) {
+            if (targetHealth == null || targetHealth <= 0f) {
                 return ActionRunState.Completed;
             }
 
@@ -49,6 +49,7 @@ namespace GOAP {
         }
 
         public override void Complete(IMonoAgent agent, Data data) { }
+
 
         
         public class Data : IActionData {

@@ -17,11 +17,10 @@ public class TurretHealthManager : MonoBehaviour {
 
 
     private void Die(Vector3 position) {
-        Debug.Log("Turret Destroyed");
         Destroy(this.gameObject);
     }
 
-    private void UpdateHealthBar(int damageTaken) {
+    private void UpdateHealthBar(int damageTaken, GameObject attacker) {
         // turretHealthSlider.value -= damageTaken;
     }
 

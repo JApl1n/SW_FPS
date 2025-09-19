@@ -24,11 +24,9 @@ namespace GOAP {
 
         
         public override void Complete(IMonoAgent agent, Data data) {
-            Debug.Log("Completed");
         }
 
         public override void Stop(IMonoAgent agent, Data data) {
-            Debug.Log("Stopped");
         }
 
 

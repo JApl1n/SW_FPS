@@ -4,7 +4,7 @@ using UnityEngine;
 using GOAP.Config;
 
 namespace GOAP.Behaviours {
-    public class BrainBehaviour : MonoBehaviour {
+    public class AgentBrainBehaviour : MonoBehaviour {
         private AgentBehaviour agent;
         private GoapActionProvider provider;
         private GoapBehaviour goap;
@@ -53,7 +53,7 @@ namespace GOAP.Behaviours {
             } else if ((data.objectiveHealth > 0) && (this.data.currentTarget != this.data.objective)) {
                 // Need a new target
                     
-                // this.data.currentTarget = this.data.objective;
+                this.data.currentTarget = this.data.objective;
                 // this.data.currentTargetHealth = this.data.objectiveHealth;
                 this.provider.RequestGoal<MoveToObjectiveGoal>();
             }
@@ -71,7 +71,7 @@ namespace GOAP.Behaviours {
 
         private void TargetSensorOnTargetEnter(Transform target) {
             if ((target.tag == "player") || (target.tag == "turret") || (target.tag == "objective")) {
-                if (NotInList(targets, target.root.gameObject, numTargets)) {
+                if (!InList(targets, target.root.gameObject, numTargets)) {
                     targets[numTargets] = target.root.gameObject;
                     Debug.Log(target.root.gameObject);
                     numTargets++;
@@ -82,29 +82,42 @@ namespace GOAP.Behaviours {
                         this.provider.RequestGoal<DestroyTargetGoal>();
                     }
                 }
-                
-                
-
             }
         }
 
         private void TargetSensorOnTargetExit(Vector3 lastKnownPosition) {
-            for (int i=0; i<targets.Length; i++) {
+            for (int i=0; i<numTargets; i++) {
                 float dist = Vector3.Distance(agent.transform.position, targets[i].transform.position);
                 if (dist > attackConfig.sensorRadius) {
                     Debug.Log("Exited");
                     numTargets--;
                     targets = ReorderArray(targets, i);
-                    // FIGURE OUT
+                    if (numTargets == 0) { // If no targets
+                        this.data.currentTargetHealth = 0;  // Forces action to complete, doesnt change any true value
+                        this.provider.RequestGoal<MoveToObjectiveGoal>();
+                    }
                 }
             }
         }
 
 
+        public void TakeHit(int damageTaken, GameObject attacker) {
+            if (attacker.tag == "player") {
+                float dist = Vector3.Distance(agent.transform.position, attacker.transform.position);
+                if (dist < attackConfig.sensorRadius) {
+                    Debug.Log("Switch Targets");
+                    this.data.currentTargetHealth = 0;
+                    this.data.currentTarget = attacker;
+                    this.provider.RequestGoal<DestroyTargetGoal>();
+                }
+            }
+        }
 
 
+        // This might be slower than some pre-written function but its not used too much
+        // Simply moves upper section of list down by one according to index value given
         private GameObject[] ReorderArray(GameObject[] oldList, int index) {
-            // This might be slower than some pre-written function but its not used too much
+            
             GameObject[] newList = new GameObject[oldList.Length];
 
             for (int i=0; i<index; i++) {
@@ -118,17 +131,14 @@ namespace GOAP.Behaviours {
             return newList;
         }
 
-        private bool NotInList(GameObject[] list, GameObject item, int index) {
-
+        // Searches through list for item
+        private bool InList(GameObject[] list, GameObject item, int index) {
             for (int i=0; i<index; i++) {
                 if (list[i] == item) {
-                    Debug.Log("duplicate");
-                    return false;
+                    return true;
                 }
             }
-
-            return true;
-
+            return false;
         }
 
     }

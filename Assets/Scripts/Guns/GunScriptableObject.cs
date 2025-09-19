@@ -22,6 +22,7 @@ public class GunScriptableObject : ScriptableObject
 
     private MonoBehaviour activeMonoBehaviour;
     private GameObject model;
+    [HideInInspector] public GameObject rootObject;
 
     private float lastShootTime;
     private float initClickTime;
@@ -50,6 +51,7 @@ public class GunScriptableObject : ScriptableObject
 
         model = Instantiate(modelPrefab);
         model.transform.SetParent(parent, false);
+        rootObject = activeMonoBehaviour.gameObject;
         model.transform.localPosition = spawnPoint;
         model.transform.localRotation = Quaternion.Euler(spawnRotation);
 
@@ -144,7 +146,7 @@ public class GunScriptableObject : ScriptableObject
     private void HandleBulletImpact(float distanceTravelled, Vector3 hitLocation, Vector3 hitNormal, Collider collider) {
         if (collider.TryGetComponent(out IDamageable damageable)) {
             if (collider.CompareTag("enemy")) {
-                damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+                damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled), rootObject);
             }
         }
     }

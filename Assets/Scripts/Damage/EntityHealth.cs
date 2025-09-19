@@ -17,12 +17,12 @@ public class EntityHealth : MonoBehaviour, IDamageable
         currentHealth = maxHealth;  // Always spawn with max health
     }
 
-    public void TakeDamage(int damage) {
+    public void TakeDamage(int damage, GameObject attacker) {
         int damageTaken = Mathf.Clamp(damage, 0, currentHealth);  // Prevent negative health
         currentHealth -= damageTaken;
 
         if (damageTaken != 0) {  // Just in case a value of zero taken (dead enemy or damage falloff)
-            OnTakeDamage?.Invoke(damageTaken);
+            OnTakeDamage?.Invoke(damageTaken, attacker);
             
             if (currentHealth == 0) {
                 OnDeath?.Invoke(transform.position);

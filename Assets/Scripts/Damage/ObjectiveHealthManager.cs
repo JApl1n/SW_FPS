@@ -19,7 +19,7 @@ public class ObjectiveHealthManager : MonoBehaviour
         Debug.Log("Game Over, Objective was destroyed");
     }
 
-    private void UpdateHealthBar(int damageTaken) {
+    private void UpdateHealthBar(int damageTaken, GameObject attacker) {
         objectiveHealthSlider.value -= damageTaken;
     }
 }

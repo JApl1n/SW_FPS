@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using GOAP.Behaviours;
 
-public class EnemyHealth : MonoBehaviour
-{
+public class EnemyHealth : MonoBehaviour {
     public EntityHealth health;
+    [SerializeField] private AgentBrainBehaviour agentBrain;
     [SerializeField] private Slider enemyHealthSlider;
     private Image[] images;
     private Image slider;
@@ -33,12 +34,12 @@ public class EnemyHealth : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    private void UpdateHealthBar(int damageTaken) {
+    private void UpdateHealthBar(int damageTaken, GameObject attacker) {
+        agentBrain.TakeHit(damageTaken, attacker);
         enemyHealthSlider.value -= damageTaken;
         if (enemyHealthSlider.value == 0) {
             slider.color = new Color(slider.color[0], slider.color[1], slider.color[2], 0);
             // Make transparent
         }
     }
-
 }

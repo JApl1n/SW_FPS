@@ -23,7 +23,7 @@ public class PlayerHealthManager : MonoBehaviour
         Debug.Log("Player Dead");
     }
 
-    private void UpdateHealthBar(int damageTaken) {
+    private void UpdateHealthBar(int damageTaken, GameObject attacker) {
         playerHealthSlider.value -= damageTaken;
     }
 

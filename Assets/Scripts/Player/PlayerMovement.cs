@@ -23,10 +23,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float crouchYScale;
     private float startYScale;
 
-    [Header("Keybinds")]
-    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
-    [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
-    [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
+    // [Header("Keybinds")]
+    // [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    // [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
+    // [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
 
     [Header("Ground Check")]
     [SerializeField] private float playerHeight;
@@ -55,8 +55,6 @@ public class PlayerMovement : MonoBehaviour
         air
     }
 
-    // [Header("Other Scripts")]
-    // [SerializeField] private PlayerGunSelector gunSelector;
 
     void Start(){
         rb = GetComponent<Rigidbody>();
@@ -72,9 +70,7 @@ public class PlayerMovement : MonoBehaviour
     {
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight*0.5f + 0.2f, whatIsGround);
 
-        MyInput();
         SpeedControl();
-        StateHandler();
 
         if (grounded) {
             rb.drag = groundDrag;
@@ -87,12 +83,13 @@ public class PlayerMovement : MonoBehaviour
         MovePlayer();
     }
 
-    private void MyInput() {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
+    public void MyInput(bool wantsToJump, bool wantsToSprint, bool crouchDown, bool crouchUp, float horInput, float verInput) {
+
+        horizontalInput = horInput;
+        verticalInput = verInput;
 
         // Jump input
-        if (Input.GetKey(jumpKey) && readyToJump && grounded) {
+        if (wantsToJump && readyToJump && grounded) {
             readyToJump = false;
 
             Jump();
@@ -101,39 +98,42 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Crouch input down
-        if (Input.GetKeyDown(crouchKey)) {
+        if (crouchDown) {
             transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
             rb.AddForce(Vector3.down *5f, ForceMode.Impulse);
         }
 
         // Crouch input up
-        if (Input.GetKeyUp(crouchKey)) {
+        if (crouchUp) {
             transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
         }
 
-
+        StateHandler(crouchDown, crouchUp, wantsToSprint);
     }
 
-    private void StateHandler() {
+    public void StateHandler(bool crouchDown, bool crouchUp, bool wantsToSprint) {
         // Crouching
-        if (Input.GetKey(crouchKey)) {
+        if (crouchDown) {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
-        }
-
-        // Sprinting
-        if (grounded && Input.GetKey(sprintKey)) {
-            state = MovementState.sprinting;
-            moveSpeed = sprintSpeed;
-        }
-        // Walking
-        else if (grounded) {
+        } 
+        
+        if (crouchUp) {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
-        }
-        // Air
-        else {
-            state = MovementState.air;
+        } 
+
+        if (state != MovementState.crouching) {
+            // Sprinting
+            if (grounded && wantsToSprint ) {
+                state = MovementState.sprinting;
+                moveSpeed = sprintSpeed;
+            } else if (grounded) {  // Walking
+                state = MovementState.walking;
+                moveSpeed = walkSpeed;
+            } else {  // Air
+                state = MovementState.air;
+            }
         }
     }
 

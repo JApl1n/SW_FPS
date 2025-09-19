@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557000695ab094adfb6f1d48600e2ace, type: 3}
   m_Name: DC-15s
   m_EditorClassIdentifier: 
-  type: 1
-  name: DC-15s
+  type: 2
   modelPrefab: {fileID: 8025521901876577474, guid: 42e4ebe2949434f43b1fda4359f48fe5, type: 3}
   spawnPoint: {x: 0.1, y: 0.1, z: 0.1}
   spawnRotation: {x: 0, y: 0, z: 0}
@@ -21,3 +20,4 @@ MonoBehaviour:
   shootConfig: {fileID: 11400000, guid: d0ae68dd2b1484d1db011ed33d46fa9d, type: 2}
   trailConfig: {fileID: 11400000, guid: 6e787e01239c04daeb785db699260a5c, type: 2}
   weaponHeatConfig: {fileID: 11400000, guid: f8750221a39d345d4970eb7474461067, type: 2}
+  rootObject: {fileID: 0}

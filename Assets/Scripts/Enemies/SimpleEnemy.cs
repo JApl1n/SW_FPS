@@ -78,7 +78,7 @@ public class SimpleEnemy : MonoBehaviour
         IDamageable damageable;
         if (collider.TryGetComponent(out damageable) || collider.transform.parent.TryGetComponent(out damageable)) {
             if (collider.CompareTag("player") || collider.CompareTag("objective")) {
-                damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+                damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled), this.transform.gameObject);
             }
         }
     }

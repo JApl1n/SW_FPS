@@ -125,7 +125,7 @@ namespace GOAP.Behaviours
             IDamageable damageable;
             if (collider.TryGetComponent(out damageable) || collider.transform.parent.TryGetComponent(out damageable)) {
                 if (collider.CompareTag("player") || collider.CompareTag("objective") || collider.CompareTag("turret")) {
-                    damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled));
+                    damageable.TakeDamage(damageConfig.GetDamage(distanceTravelled), this.transform.gameObject);
                 }
             }
         }
