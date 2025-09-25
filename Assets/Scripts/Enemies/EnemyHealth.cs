@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour {
     private Image[] images;
     private Image slider;
     private Camera sceneCamera;
+
+    [SerializeField] GameObject scrapPrefab;
     
     private void Start() {
         health.OnDeath += Die;
@@ -30,7 +32,9 @@ public class EnemyHealth : MonoBehaviour {
     }
 
     private void Die(Vector3 position) {
-        Debug.Log("Dead");
+        scrapPrefab.GetComponent<Scrap>().scrapValue = Random.Range(1,3);
+        Instantiate(scrapPrefab, this.transform.position, Quaternion.identity);
+        Destroy(health.gameObject);
         Destroy(this.gameObject);
     }
 

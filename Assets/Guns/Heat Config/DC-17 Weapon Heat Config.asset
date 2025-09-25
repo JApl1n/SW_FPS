@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 779662015054d4a249cea78a262187dc, type: 3}
   m_Name: DC-17 Weapon Heat Config
   m_EditorClassIdentifier: 
-  maxWeaponHeat: 10
+  maxWeaponHeat: 100
   shootHeatCost: 1.5
   coolingDelay: 3
   coolingRate: 5

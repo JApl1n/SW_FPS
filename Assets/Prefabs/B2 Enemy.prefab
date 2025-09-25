@@ -137,7 +137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f69ea28ed5ef14a7faa693aca1d29791, type: 2}
+  - {fileID: 2100000, guid: 1474ef9e69ed84ca38ec16d4cc0c8b35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -515,7 +515,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f69ea28ed5ef14a7faa693aca1d29791, type: 2}
+  - {fileID: 2100000, guid: 1474ef9e69ed84ca38ec16d4cc0c8b35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5430,7 +5430,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f69ea28ed5ef14a7faa693aca1d29791, type: 2}
+  - {fileID: 2100000, guid: 1474ef9e69ed84ca38ec16d4cc0c8b35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5518,7 +5518,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e399df5f6291a465ab083a28cbfd1bcc, type: 2}
+  - {fileID: 2100000, guid: ac9731fc914824c53b316f7a2905b204, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5602,7 +5602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fe46a42c93574275a1a0755f7fda0fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 100
+  _maxHealth: 150
   _health: 0
 --- !u!114 &7423537019310057996
 MonoBehaviour:
@@ -5753,7 +5753,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f69ea28ed5ef14a7faa693aca1d29791, type: 2}
+  - {fileID: 2100000, guid: 1474ef9e69ed84ca38ec16d4cc0c8b35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5785,7 +5785,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6291949868485316062}
   - component: {fileID: 7127976181263632573}
-  - component: {fileID: 7448761569929096422}
   - component: {fileID: 9161697449291604979}
   - component: {fileID: 714689605740988655}
   - component: {fileID: 3656245931676879506}
@@ -5794,7 +5793,7 @@ GameObject:
   - component: {fileID: 3866624453706236755}
   - component: {fileID: -1874282334340761983}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: B2 Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5833,23 +5832,7 @@ MonoBehaviour:
   health: {fileID: 6475849582185998301}
   agentBrain: {fileID: 3866624453706236755}
   enemyHealthSlider: {fileID: 6623203988293708396}
---- !u!114 &7448761569929096422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8476925786391745622}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dc84c8314fc54e9184907159a2a3781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageConfig: {fileID: 11400000, guid: 2ce7c761c46fa4f69b1d2d4cf5eddb89, type: 2}
-  shootConfig: {fileID: 11400000, guid: 9d6a44bd7bbb1491dac59180d1db73d6, type: 2}
-  target: {fileID: 0}
-  agent: {fileID: 0}
-  targetDistance: 15
+  scrapPrefab: {fileID: 5054615647435355040, guid: f38555d7ded404724a19e6474d23be1c, type: 3}
 --- !u!195 &9161697449291604979
 NavMeshAgent:
   m_ObjectHideFlags: 0

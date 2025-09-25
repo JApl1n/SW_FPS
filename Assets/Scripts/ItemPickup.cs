@@ -2,20 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemPickup : MonoBehaviour {
 
     [SerializeField] private GameObject textCanvas;
+    private TMP_Text[] text;
     private Camera sceneCamera;
 
     private float distance;
     [SerializeField] [Range(1,10)] float pickupDistance = 2f;
 
     public string itemName;
+    public string displayText;
 
 
     private void Start() {
         sceneCamera = GameObject.Find("Camera").GetComponent<Camera>();
+        text = textCanvas.GetComponentsInChildren<TMP_Text>();
+
+        text[0].SetText(itemName);
+        text[1].SetText(displayText);
+
         textCanvas.SetActive(false);
     }
 
