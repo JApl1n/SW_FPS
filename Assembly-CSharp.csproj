@@ -89,11 +89,12 @@
     <Compile Include="Assets/Scripts/Game Handling/ValueCarry.cs" />
     <Compile Include="Assets/Scripts/GOAP/Capabilities/ShootCapabilityFactory.cs" />
     <Compile Include="Assets/Scripts/GOAP/WorldKeys/IsShootingTarget.cs" />
-    <Compile Include="Assets/Scripts/ItemPickup.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemyHealth.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
     <Compile Include="Assets/Scripts/GOAP/DependencyInjector.cs" />
     <Compile Include="Assets/Scripts/Game Handling/OptionsMenu.cs" />
+    <Compile Include="Assets/Scripts/Crafting/Crafter.cs" />
+    <Compile Include="Assets/Scripts/Crafting/InteractableItemDisplay.cs" />
     <Compile Include="Assets/Scripts/Guns/TrailConfigScriptableObject.cs" />
     <Compile Include="Assets/Scripts/GOAP/WorldKeys/TargetHealth.cs" />
     <Compile Include="Assets/Scripts/Game Handling/Spawner.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets/Scripts/GOAP/AgentTypes/AgentTypeFactory.cs" />
     <Compile Include="Assets/Scripts/Guns/PlayerGunSelector.cs" />
     <Compile Include="Assets/Scripts/GOAP/Goals/MoveToObjectiveGoal.cs" />
+    <Compile Include="Assets/Scripts/Crafting/CraftableItem.cs" />
     <Compile Include="Assets/Scripts/Damage/ObjectiveHealthManager.cs" />
     <Compile Include="Assets/Scripts/Game Handling/Waves/Wave.cs" />
     <Compile Include="Assets/Scripts/GOAP/Behaviours/DataBehaviour.cs" />

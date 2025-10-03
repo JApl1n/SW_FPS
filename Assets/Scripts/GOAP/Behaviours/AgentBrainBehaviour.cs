@@ -73,7 +73,6 @@ namespace GOAP.Behaviours {
             if ((target.tag == "player") || (target.tag == "turret") || (target.tag == "objective")) {
                 if (!InList(targets, target.root.gameObject, numTargets)) {
                     targets[numTargets] = target.root.gameObject;
-                    Debug.Log(target.root.gameObject);
                     numTargets++;
 
                     if (numTargets == 1) { // If only target
@@ -89,7 +88,6 @@ namespace GOAP.Behaviours {
             for (int i=0; i<numTargets; i++) {
                 float dist = Vector3.Distance(agent.transform.position, targets[i].transform.position);
                 if (dist > attackConfig.sensorRadius) {
-                    Debug.Log("Exited");
                     numTargets--;
                     targets = ReorderArray(targets, i);
                     if (numTargets == 0) { // If no targets
@@ -105,7 +103,6 @@ namespace GOAP.Behaviours {
             if (attacker.tag == "player") {
                 float dist = Vector3.Distance(agent.transform.position, attacker.transform.position);
                 if (dist < attackConfig.sensorRadius) {
-                    Debug.Log("Switch Targets");
                     this.data.currentTargetHealth = 0;
                     this.data.currentTarget = attacker;
                     this.provider.RequestGoal<DestroyTargetGoal>();

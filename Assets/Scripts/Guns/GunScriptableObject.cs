@@ -10,7 +10,6 @@ public class GunScriptableObject : ScriptableObject
 {
     // public ImpactType impactType;
     public GunType type;
-    // public string name;
     public GameObject modelPrefab;
     public Vector3 spawnPoint;
     public Vector3 spawnRotation;
@@ -90,9 +89,6 @@ public class GunScriptableObject : ScriptableObject
             } else {
                 DoProjectileShoot(shootDirection);
             }
-
-            
-            
         }
     }
 

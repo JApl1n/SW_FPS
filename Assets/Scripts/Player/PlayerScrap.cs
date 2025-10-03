@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerScrap : MonoBehaviour {
     public int scrapValue;
+    [SerializeField] private TMP_Text displayValue;
     
     void Start() {
         scrapValue = 0;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        displayValue.text = "" + scrapValue;
     }
 
 

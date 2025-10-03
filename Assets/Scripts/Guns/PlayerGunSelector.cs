@@ -28,24 +28,21 @@ public class PlayerGunSelector : MonoBehaviour
         currentGun.Spawn(gunParent, this);
     }
 
-    public void PickupGun() {
-        RaycastHit hit;
-        if (Physics.Raycast(gunParent.position, gunParent.forward, out hit, 10f, gunUILayer)) {
-            if (hit.transform.root.gameObject.GetComponent<ItemPickup>() != null) {
-                gunName = hit.transform.root.gameObject.GetComponent<ItemPickup>().itemName;
-                // https://discussions.unity.com/t/converting-a-string-to-an-enum/16705
-                GunType parsedGunName = (GunType)System.Enum.Parse(typeof(GunType), gunName);
-                GunScriptableObject currentGun = guns.Find(currentGun => currentGun.type == parsedGunName);
+    public void PickupGun(GameObject interactableObject) {
+        gunName = interactableObject.GetComponent<InteractableItemDisplay>().itemName;
+        
+        // https://discussions.unity.com/t/converting-a-string-to-an-enum/16705
+        GunType parsedGunName = (GunType)System.Enum.Parse(typeof(GunType), gunName);
+        GunScriptableObject currentGun = guns.Find(currentGun => currentGun.type == parsedGunName);
 
-                if (currentGun == null) {
-                    Debug.LogError($"No GunScriptableObject found for gunType: {currentGun}");
-                    return;
-                }
-
-                activeGun = currentGun;
-                currentGun.Spawn(gunParent, this);
-            } 
-            // GunScriptableObject currentGun = guns.Find(currentGun => currentGun.type == gun);
+        if (currentGun == null) {
+            Debug.LogError($"No GunScriptableObject found for gunType: {currentGun}");
+            return;
         }
-    }
+
+        activeGun = currentGun;
+        currentGun.Spawn(gunParent, this);
+        Destroy(interactableObject);
+    } 
+    // GunScriptableObject currentGun = guns.Find(currentGun => currentGun.type == gun);
 }

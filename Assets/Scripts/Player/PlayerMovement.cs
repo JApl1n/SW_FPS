@@ -23,11 +23,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float crouchYScale;
     private float startYScale;
 
-    // [Header("Keybinds")]
-    // [SerializeField] private KeyCode jumpKey = KeyCode.Space;
-    // [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
-    // [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
-
     [Header("Ground Check")]
     [SerializeField] private float playerHeight;
     [SerializeField] private LayerMask whatIsGround;
