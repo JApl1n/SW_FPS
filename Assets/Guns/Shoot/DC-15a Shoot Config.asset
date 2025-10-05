@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb336ab70aeb34fc186ce0b1f24bc06c, type: 3}
-  m_Name: DC-17 Shoot Config
+  m_Name: DC-15a Shoot Config
   m_EditorClassIdentifier: 
   isHitScan: 0
   bulletPrefab: {fileID: 2231932110506564175, guid: 7cde04f3bb4ab46b7b56b209a1da0cef, type: 3}
   bulletSpawnForce: 20
-  bulletSpawnOffset: 0.35
+  bulletSpawnOffset: 1
   hitMask:
     serializedVersion: 2
     m_Bits: 0
-  spread: {x: 0.015, y: 0.015, z: 0.025}
-  fireRate: 0.25
-  spreadMultiplier: 4
+  spread: {x: 0.01, y: 0.01, z: 0.02}
+  fireRate: 0.15
+  spreadMultiplier: 5
   recoilRecoverySpeed: 5
-  maxSpreadTime: 1
+  maxSpreadTime: 2

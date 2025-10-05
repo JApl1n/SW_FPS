@@ -25,6 +25,7 @@ public class PlayerAction : MonoBehaviour {
     public bool inputsFrozen = false;
 
     private string itemType;
+    private string gunName;
     private GameObject interactableObject;
 
     private void Start() {
@@ -44,9 +45,11 @@ public class PlayerAction : MonoBehaviour {
                     if (hit.transform.root.gameObject.GetComponent<InteractableItemDisplay>() != null) {
                         interactableObject = hit.transform.root.gameObject;
                         itemType = interactableObject.GetComponent<InteractableItemDisplay>().itemType;
-                    
+                        gunName = interactableObject.GetComponent<InteractableItemDisplay>().itemName;
+
                         if (itemType == "gun") {
-                            gunSelector.PickupGun(interactableObject);
+                            gunSelector.PickupGun(gunName);
+                            Destroy(interactableObject);
                         } else if (itemType == "crafter") {
                             crafter.Interact();
                         } else {

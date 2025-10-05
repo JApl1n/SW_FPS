@@ -28,21 +28,20 @@ public class PlayerGunSelector : MonoBehaviour
         currentGun.Spawn(gunParent, this);
     }
 
-    public void PickupGun(GameObject interactableObject) {
-        gunName = interactableObject.GetComponent<InteractableItemDisplay>().itemName;
-        
+    public void PickupGun(string gunName) {
         // https://discussions.unity.com/t/converting-a-string-to-an-enum/16705
         GunType parsedGunName = (GunType)System.Enum.Parse(typeof(GunType), gunName);
         GunScriptableObject currentGun = guns.Find(currentGun => currentGun.type == parsedGunName);
 
         if (currentGun == null) {
-            Debug.LogError($"No GunScriptableObject found for gunType: {currentGun}");
+            Debug.LogError($"No GunScriptableObject found for gunType: {currentGun}. Have you added the guntype to the list of guns attatched to the player?");
             return;
         }
 
+        activeGun.Despawn();
+
         activeGun = currentGun;
         currentGun.Spawn(gunParent, this);
-        Destroy(interactableObject);
     } 
     // GunScriptableObject currentGun = guns.Find(currentGun => currentGun.type == gun);
 }

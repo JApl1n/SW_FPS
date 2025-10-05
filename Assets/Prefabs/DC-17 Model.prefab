@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 1311283703412839251}
   - component: {fileID: 6075511555203490649}
   - component: {fileID: -6038997426810216977}
+  - component: {fileID: -6129424693207935243}
   m_Layer: 0
   m_Name: DC-17 Model
   m_TagString: Untagged
@@ -5030,3 +5031,28 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-6129424693207935243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8025521901876577474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb2e05ffe64a47a99ace53183c4945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DC_17
+  scrapCost: 0
+  prefabImage: {fileID: 21300000, guid: 03cceb1e87af54cef83f4bb5b4995ccd, type: 3}
+  fieldNames:
+  - Damage
+  - Fire Rate
+  - Heat Cost
+  - Heat Cap
+  fieldValues:
+  - 15
+  - 0.25
+  - 1
+  - 10

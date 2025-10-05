@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 779662015054d4a249cea78a262187dc, type: 3}
   m_Name: DC-15s Weapon Heat Config
   m_EditorClassIdentifier: 
-  maxWeaponHeat: 25
-  shootHeatCost: 2
+  maxWeaponHeat: 20
+  shootHeatCost: 1
   coolingDelay: 3
   coolingRate: 5
   overheatPenalty: 2
   goldZonePosition: 0.75
   goldZoneWidth: 0.2
   goldZoneReward: 5
+  barColour: {r: 1, g: 1, b: 1, a: 0.62352943}
   heatSlider: {fileID: 0}
   heatSliderBar: {fileID: 0}
+  heatSliderBarImage: {fileID: 0}
   goldZoneBar: {fileID: 0}

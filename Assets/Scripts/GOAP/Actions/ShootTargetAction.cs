@@ -27,19 +27,25 @@ namespace GOAP {
             data.Time += context.DeltaTime;
 
             bool shouldAttack = (data.Target != null) && (Vector3.Distance(data.Target.Position, agent.transform.position) <=
-                attackConfig.rangedAttackRadius);
+                this.attackConfig.rangedAttackRadius);
 
             // Decide attack
             if (shouldAttack) {
                 if ((data.Time - data.LastTimeFired) > shootConfig.fireRate) {
                     // Perform attack
-                    shootBehaviour.DoProjectileShoot((data.Target.Position - agent.transform.position));
+
+                    // I have to do this or it causes a bug where one agent shoots for all others
+                    dataBehaviour = agent.GetComponent<DataBehaviour>();
+                    shootBehaviour = agent.GetComponent<AgentShootBehaviour>();
+
+                    agent.transform.LookAt(data.Target.Position);
+                    this.shootBehaviour.DoProjectileShoot((data.Target.Position - agent.gameObject.transform.position));
                     data.LastTimeFired = data.Time;
                 }
             }
 
             // Complete action if target detroyed/out of health
-            targetHealth = dataBehaviour.currentTargetHealth;
+            targetHealth = this.dataBehaviour.currentTargetHealth;
             if (targetHealth == null || targetHealth <= 0f) {
                 return ActionRunState.Completed;
             }

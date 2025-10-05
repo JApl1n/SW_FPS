@@ -38,7 +38,11 @@ public class GunScriptableObject : ScriptableObject
     private ParticleSystem shootSystem;
     private ObjectPool<TrailRenderer> trailPool;
     private ObjectPool<Bullet> bulletPool;
- 
+
+    public void Despawn() {
+        Destroy(GameObject.Find(modelPrefab.name+"(Clone)"));
+    }
+
     public void Spawn(Transform parent, MonoBehaviour activeMonoBehaviour) {
         this.activeMonoBehaviour = activeMonoBehaviour;
         lastShootTime = 0;  // Reset because editor value used
@@ -156,8 +160,8 @@ public class GunScriptableObject : ScriptableObject
         // Look into changing colour with heat
         weaponHeatConfig.heatSlider.value = weaponHeat;
         if (weaponHeat == 0) {
-                weaponHeatConfig.heatSliderBarImage.color = new Color(0,0,0,0); 
-            // Make transparent
+            weaponHeatConfig.heatSliderBarImage.color = new Color(0,0,0,0); 
+            // Make transparent to remove small image at 0
         } else {
             weaponHeatConfig.heatSliderBarImage.color = weaponHeatConfig.barColour;
         }

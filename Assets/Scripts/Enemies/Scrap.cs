@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Scrap : MonoBehaviour {
     
-    private Collider collider;
+    // private Collider collider;
 
     public int scrapValue;
 
 
-    void Awake() {
-        collider = this.GetComponentInChildren<BoxCollider>();
-    }
+    // void Awake() {
+    //     collider = this.GetComponentInChildren<BoxCollider>();
+    // }
 
     private void OnTriggerEnter(Collider other) {
         if ((other != null) && (other.transform.parent != null)) {

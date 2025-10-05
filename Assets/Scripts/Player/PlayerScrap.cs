@@ -8,7 +8,7 @@ public class PlayerScrap : MonoBehaviour {
     [SerializeField] private TMP_Text displayValue;
     
     void Start() {
-        scrapValue = 0;
+        scrapValue = 1000;
     }
 
     // Update is called once per frame

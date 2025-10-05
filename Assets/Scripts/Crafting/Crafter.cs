@@ -12,6 +12,8 @@ public class Crafter : MonoBehaviour {
     [SerializeField] private GameObject crafterUI;
     [SerializeField] private GameObject craftingMenu;
 
+    private const int scrapCost = 10;
+
     private bool crafted;
 
     public void Start() {
@@ -26,8 +28,8 @@ public class Crafter : MonoBehaviour {
 
     public void Interact() {
         if (!crafted) {
-            if (playerScrap.scrapValue >= 0) {
-                playerScrap.scrapValue -= 0;
+            if (playerScrap.scrapValue >= scrapCost) {
+                playerScrap.scrapValue -= scrapCost;
                 Spawn();
                 Destroy(crafterUI);
                 crafted = true;

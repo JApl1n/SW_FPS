@@ -13,7 +13,6 @@ public class WeaponHeatScriptableObject : ScriptableObject
     public float overheatPenalty = 3f;
     public float goldZonePosition = 0.75f;  // Decimal portion along heat bar to centre gold zone
     public float goldZoneWidth = 0.2f;  // Decimal portion of heat bar the gold zone takes up
-    public float goldZoneReward = 5f;  // Time reward of infinite heat for weapon
 
     public Color barColour;
 
@@ -44,10 +43,7 @@ public class WeaponHeatScriptableObject : ScriptableObject
         }
 
         heatSliderBarImage = heatSliderBar.GetComponentInChildren<Image>();
-        barColour = heatSliderBarImage.color; 
         goldZoneBar.anchoredPosition = new Vector2((goldZonePosition-0.5f) * heatSliderBar.rect.width, 0);
         goldZoneBar.sizeDelta = new Vector2(goldZoneWidth * heatSliderBar.rect.width, goldZoneBar.rect.height);
     }
-
-
 }
