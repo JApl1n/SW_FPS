@@ -5043,7 +5043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb2e05ffe64a47a99ace53183c4945a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: DC_17
+  itemName: DC_17
+  itemtype: gun
   scrapCost: 0
   prefabImage: {fileID: 21300000, guid: 03cceb1e87af54cef83f4bb5b4995ccd, type: 3}
   fieldNames:

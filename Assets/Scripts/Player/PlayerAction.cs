@@ -20,7 +20,7 @@ public class PlayerAction : MonoBehaviour {
 
     [Header ("Interactable Layer")]
     [SerializeField] private LayerMask interactableUILayer;
-    [SerializeField] private Transform camera;
+    [SerializeField] private Transform sceneCamera;
 
     public bool inputsFrozen = false;
 
@@ -41,7 +41,7 @@ public class PlayerAction : MonoBehaviour {
 
             if (Input.GetKey(interactKey)) {
                 RaycastHit hit;
-                if (Physics.Raycast(camera.position, camera.forward, out hit, 10f, interactableUILayer)) {
+                if (Physics.Raycast(sceneCamera.position, sceneCamera.forward, out hit, 10f, interactableUILayer)) {
                     if (hit.transform.root.gameObject.GetComponent<InteractableItemDisplay>() != null) {
                         interactableObject = hit.transform.root.gameObject;
                         itemType = interactableObject.GetComponent<InteractableItemDisplay>().itemType;

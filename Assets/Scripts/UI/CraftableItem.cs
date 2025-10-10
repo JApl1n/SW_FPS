@@ -24,14 +24,18 @@ public class CraftableItem : MonoBehaviour, IPointerClickHandler {
     [Header ("Player Scripts")]
     [SerializeField] private PlayerScrap playerScrap;
     [SerializeField] private PlayerGunSelector gunSelector;
+    [SerializeField] private ItemPlacer itemPlacer;
 
     private bool bought = false;
+
+    private string itemType;
 
     void Start() {
         bought = false;
 
         itemData = modelPrefab.GetComponent<CraftableItemData>();
 
+        itemType = itemData.itemType;
         displayName.text = itemData.name;
         displayScrapCost.text = playerScrap.scrapValue.ToString() + "/" + itemData.scrapCost.ToString();
         image.sprite = itemData.prefabImage;
@@ -48,17 +52,21 @@ public class CraftableItem : MonoBehaviour, IPointerClickHandler {
 
     public void OnPointerClick(PointerEventData eventData) {
         if (bought) {
-            GivePlayerItem();
+            GivePlayerItem(itemType);
         } else if (playerScrap.scrapValue >= itemData.scrapCost) {
             playerScrap.scrapValue -= itemData.scrapCost;
             bought = true;
             displayScrapCost.text = "Owned";
             itemData.scrapCost = 0;
-            GivePlayerItem();
+            GivePlayerItem(itemType);
         }
     }
 
-    private void GivePlayerItem() {
-        gunSelector.PickupGun(itemData.name);
+    private void GivePlayerItem(string itemType) {
+        if (itemType == "gun") { 
+            gunSelector.PickupGun(itemData.name);
+        } else if (itemType == "turret") {
+            itemPlacer.PlaceItem(modelPrefab);
+        }
     }
 }

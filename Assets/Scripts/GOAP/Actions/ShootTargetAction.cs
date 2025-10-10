@@ -46,7 +46,7 @@ namespace GOAP {
 
             // Complete action if target detroyed/out of health
             targetHealth = this.dataBehaviour.currentTargetHealth;
-            if (targetHealth == null || targetHealth <= 0f) {
+            if (targetHealth <= 0f) {
                 return ActionRunState.Completed;
             }
 

@@ -16,7 +16,6 @@ public class SelfDestroy : MonoBehaviour {
         time += Time.deltaTime;
         if (time > lifetime) {
             Destroy(this.gameObject);
-            Debug.Log(time);
         }
     }
 }

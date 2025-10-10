@@ -6,7 +6,6 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] enemies;
 
-    [SerializeField] private int numEnemies = 1;
     [SerializeField] private int rowSize = 5;
     [SerializeField] private float spacing = 2f;
 

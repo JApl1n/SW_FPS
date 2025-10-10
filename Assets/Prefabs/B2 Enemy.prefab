@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3435727165124158524}
   - component: {fileID: 1915945529116275473}
   - component: {fileID: 7040437205657232152}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Enemy Health Slider Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 7878487762792002526}
   - component: {fileID: 4019766769598097739}
   - component: {fileID: 1174352169792018055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3557457752712427190}
   - component: {fileID: 6623203988293708396}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Enemy Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 3227327874199592824}
   - component: {fileID: 4794669732617137475}
   - component: {fileID: 1257000943418054459}
-  m_Layer: 12
+  m_Layer: 8
   m_Name: Target Sensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 2068467221980321600}
   - component: {fileID: 2283841740603107139}
   - component: {fileID: 5659117323967865023}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Enemy UI Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7401222674816130013}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Enemy Health Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 4034468585447886814}
   - component: {fileID: 3532134595288521421}
   - component: {fileID: 1609182850580446381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967844016586933915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 7437935606765865304}
   - component: {fileID: 1766984420470358156}
   - component: {fileID: 5766882790634507912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Brow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 3177433837715062232}
   - component: {fileID: 90402422650761417}
   - component: {fileID: 2920463973868571511}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -890,7 +890,7 @@ GameObject:
   - component: {fileID: 5893523657422715290}
   - component: {fileID: 4064976147681673445}
   - component: {fileID: 7408143069919359477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Brow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 2024145902020176179}
   - component: {fileID: 3866624453706236755}
   - component: {fileID: -1874282334340761983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: B2 Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}

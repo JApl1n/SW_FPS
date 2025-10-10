@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d028c307c5b604b9b84dc4361050c81a, type: 3}
   m_Name: EnemyAttackConfig
   m_EditorClassIdentifier: 
-  sensorRadius: 15
-  rangedAttackRadius: 15
+  sensorRadius: 10
+  rangedAttackRadius: 10
   rangedAttackCost: 1
   attackableLayerMask:
     serializedVersion: 2

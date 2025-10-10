@@ -10,34 +10,37 @@ public class TurretTargeting : MonoBehaviour {
     [SerializeField] private ShootConfigurationScriptableObject shootConfig;
     
     [Header ("Sensing")]
-    [SerializeField] private SphereCollider sphereCollider;
-    [SerializeField] private float sphereRadius;
+    [SerializeField] private float sensingRadius;
     [SerializeField] private float rotationSpeed;
+    [SerializeField] private float radiusCheckTime;
+    [SerializeField] private LayerMask enemyLayer;
 
     private ObjectPool<Bullet> bulletPool;
 
-    [SerializeField] private GameObject[] enemies = new GameObject[32];
-    private int numTargets;
-
+    private GameObject nearestEnemy;
 
     private float time;
     private float lastTimeFired;
+    private float lastRadiusCheckTime;
     private bool shouldShoot;
 
     private void Awake() {
         bulletPool = new ObjectPool<Bullet>(CreateBullet);
-        sphereCollider.radius = sphereRadius;
-        numTargets = 0;
         time = 0f;
         lastTimeFired = 0f;
+        lastRadiusCheckTime = 0f;
     }
 
     private void Update() {
         time += Time.deltaTime;
 
-        if (numTargets > 0) {
-            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, enemies[numTargets-1].transform.rotation, Time.deltaTime * rotationSpeed);
+        if ((time-lastRadiusCheckTime) > radiusCheckTime) {
+            nearestEnemy = GetNearestEnemy();
+            lastRadiusCheckTime = time;
+        }
 
+        if (nearestEnemy != null) {
+            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, nearestEnemy.transform.rotation, Time.deltaTime * rotationSpeed);
             bool shouldShoot = ((time - lastTimeFired) > shootConfig.fireRate);
         
             if (shouldShoot) {
@@ -47,28 +50,33 @@ public class TurretTargeting : MonoBehaviour {
         }
     }
 
-    private void OnTriggerEnter(Collider other) {
-        if (other.transform.parent != null) {
-            if (other.CompareTag("enemy")) {
-                if (!InList(enemies, other.transform.root.gameObject, numTargets)) {
-                    enemies[numTargets] = other.transform.root.gameObject;
-                    numTargets++;
+    private GameObject GetNearestEnemy() {
+        
+        Vector3 basePos = this.transform.position;
+        Vector3 targetPos;
+        float dist;
+        float smallestDistance = 999f;  // Some very large value
+        Collider[] hitColliders = Physics.OverlapSphere(basePos, sensingRadius);
+
+        GameObject nearest = null;
+
+        foreach (var hitCollider in hitColliders) {
+            if (hitCollider.tag == "enemy") {
+                targetPos = hitCollider.transform.position;
+                dist = Vector3.Distance(basePos, targetPos);
+                if (dist < smallestDistance) {
+                    RaycastHit hit;
+                    if (!Physics.Raycast(basePos, (targetPos - basePos), out hit, dist, enemyLayer)) {
+                        nearest = hitCollider.transform.root.gameObject;
+                        smallestDistance = dist;
+                    }
                 }
             }
         }
+
+        return nearest;
     }
 
-    private void OnTriggerExit(Collider other) {
-        if ((other.transform.parent != null) && (other.CompareTag("enemy"))) {
-            for (int i=0; i<numTargets; i++) {
-                float dist = Vector3.Distance(this.transform.position, enemies[i].transform.position);
-                if (dist > sphereRadius) {
-                    numTargets--;
-                    enemies = ReorderArray(enemies, i);
-                }
-            }
-        }
-    }
 
 
 
