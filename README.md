@@ -10,7 +10,7 @@ unity on your local machine for development and testing purposes.
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
-- [Unity](https://unity.com/download)
+- [Unity version 2022.3.19f1](www.unity.com/download)
  
 ### Installing
 
